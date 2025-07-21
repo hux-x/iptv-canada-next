@@ -1,7 +1,7 @@
 import Blogs from '../../src/pages/Blogs'
 import React from 'react'
 export const metadata = {
-  title: 'IPTV Blog & Resources | StreamPro',
+  title: 'IPTV Blog & Resources | Canadian IPTV Services',
   description:
     'Explore IPTV trends, tutorials, and expert insights on the StreamPro blog. Stay updated with the latest in streaming services.',
   keywords: [
@@ -12,10 +12,10 @@ export const metadata = {
     'IPTV news',
   ],
   openGraph: {
-    title: 'IPTV Blog & Resources | StreamPro',
+    title: 'IPTV Blog & Resources | Canadian IPTV Services',
     description:
       'Explore IPTV trends, tutorials, and expert insights on the StreamPro blog.',
-    url: 'https://streampro.ca/blogs',
+    url: 'https://canadianiptvservices.ca/blogs',
     type: 'website',
     images: [
       {

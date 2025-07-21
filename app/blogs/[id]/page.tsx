@@ -38,7 +38,7 @@ export default function Page({ params }: { params: { id: string } }) {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'StreamPro IPTV',
+      name: 'Canadian IPTV Services',
       logo: {
         '@type': 'ImageObject',
         url: 'https://canadianiptvservices.ca/favicon.ico'

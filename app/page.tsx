@@ -1,7 +1,7 @@
 import Home from '../src/pages/Index'
 import React from 'react'
 export const metadata = {
-  title: 'StreamPro - Premium IPTV Services in Canada | Best IPTV Provider',
+  title: 'Canadian IPTV Services - Premium IPTV Services in Canada | Best IPTV Provider',
   description:
     'StreamPro offers premium IPTV services in Canada with 12,000+ live channels, 4K streaming, and 24/7 support. Start your free trial today!',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     url: 'https://canadianiptvservices.ca/',
-    title: 'StreamPro - Premium IPTV Services in Canada',
+    title: 'Canadian IPTV Services - Premium IPTV Services in Canada | Best IPTV Provider',
     description:
       'Experience premium IPTV with 12,000+ channels, 4K quality, and reliable streaming. Best IPTV service in Canada with 24/7 support.',
     images: [
@@ -35,13 +35,13 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'StreamPro - Premium IPTV Services in Canada',
+    title: 'Canadian IPTV Services - Premium IPTV Services in Canada | Best IPTV Provider',
     description:
       'Experience premium IPTV with 12,000+ channels, 4K quality, and reliable streaming. Best IPTV service in Canada with 24/7 support.',
     images: [
       'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1200&h=630&fit=crop',
     ],
-    site: '@streampro', 
+    site: '@canadianiptvservices', 
   },
 };
 
@@ -59,7 +59,7 @@ export default function page() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "StreamPro",
+          "name": "Canadian IPTV Services",
           "description": "Premium IPTV services in Canada",
           "url": "https://canadianiptvservices.ca/",
           "logo": "https://canadianiptvservices.ca/logo.png",
