@@ -2,6 +2,7 @@ import BlogPost from "@/src/pages/BlogPost";
 import { blogPosts } from "../../../src/data/blogs";
 import React from "react";
 import type { Metadata } from "next";
+import FloatingWhatsAppButton from "@/src/components/FloatingWhatsAppButton";
 type PageProps = { params: { id: string } };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -62,7 +63,8 @@ export default function Page({ params }: { params: { id: string } }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-       <BlogPost id={params.id} />;
+       <BlogPost id={params.id} />
+       <FloatingWhatsAppButton/>
   </>
   )
 

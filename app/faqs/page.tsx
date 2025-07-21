@@ -1,3 +1,4 @@
+import FloatingWhatsAppButton from "@/src/components/FloatingWhatsAppButton";
 import FAQPage from "@/src/pages/FAQ";
 import React from 'react'
 export const metadata = {
@@ -20,6 +21,9 @@ export const metadata = {
 
 export default function page() {
   return (
+    <>
     <FAQPage />
+    <FloatingWhatsAppButton/>
+    </>
   )
 }

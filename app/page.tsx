@@ -1,3 +1,4 @@
+import FloatingWhatsAppButton from '@/src/components/FloatingWhatsAppButton';
 import Home from '../src/pages/Index'
 import React from 'react'
 export const metadata = {
@@ -76,6 +77,7 @@ export default function page() {
     />
    
     <Home/>
+    <FloatingWhatsAppButton/>
     </>
   )
 }

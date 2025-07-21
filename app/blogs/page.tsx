@@ -1,3 +1,4 @@
+import FloatingWhatsAppButton from '@/src/components/FloatingWhatsAppButton';
 import Blogs from '../../src/pages/Blogs'
 import React from 'react'
 export const metadata = {
@@ -29,6 +30,9 @@ export const metadata = {
 };
 export default function BlogPage() {
   return (
+   <>
     <Blogs />
+    <FloatingWhatsAppButton/>
+   </>
   )
 }
