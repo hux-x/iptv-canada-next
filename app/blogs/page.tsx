@@ -1,6 +1,7 @@
 import FloatingWhatsAppButton from '@/src/components/FloatingWhatsAppButton';
 import Blogs from '../../src/pages/Blogs'
 import React from 'react'
+import { blogPosts } from '@/src/data/blogs';
 export const metadata = {
   title: 'IPTV Blog & Resources | Canadian IPTV Services',
   description:
@@ -29,8 +30,38 @@ export const metadata = {
   },
 };
 export default function BlogPage() {
+   const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: 'StreamPro IPTV Blog',
+    description: 'Expert insights, technical guides, and industry trends for IPTV streaming technology.',
+    url: 'https://iptvresellerservices.com/blogs',
+    publisher: {
+      '@type': 'Organization',
+      name: 'StreamPro IPTV',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://iptvresellerservices.com/logo.png',
+      },
+    },
+    blogPost: blogPosts.map(post => ({
+      '@type': 'BlogPosting',
+      headline: post.title,
+      description: post.excerpt,
+      url: `https://iptvresellerservices.com/blog/${post.slug}`,
+      author: {
+        '@type': 'Person',
+        name: post.author,
+      },
+      image: post.image,
+    })),
+  };
   return (
    <>
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     <Blogs />
     <FloatingWhatsAppButton/>
    </>
