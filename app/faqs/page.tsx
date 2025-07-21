@@ -1,13 +1,13 @@
 import FAQPage from "@/src/pages/FAQ";
 import React from 'react'
 export const metadata = {
-  title: 'FAQs | StreamPro IPTV',
+  title: 'FAQs | Canadian IPTV Services',
   description: 'Find answers to frequently asked questions about IPTV services, setup, pricing, and troubleshooting.',
   keywords: ['IPTV FAQ', 'IPTV help', 'IPTV setup', 'IPTV support', 'IPTV troubleshooting'],
   openGraph: {
     title: 'FAQs | StreamPro IPTV',
     description: 'Explore frequently asked questions and answers about StreamPro IPTV. Get the support you need for setup, pricing, and more.',
-    url: 'https://yourdomain.com/faq',
+    url: 'https://canadianiptvservices.ca/faqs',
     siteName: 'StreamPro',
     type: 'website',
   },

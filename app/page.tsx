@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Home from '../src/pages/Index'
 import React from 'react'
 export const metadata = {
@@ -12,15 +11,16 @@ export const metadata = {
     'streaming service Canada',
     'live TV channels',
     'IPTV reseller',
+    'Best IPTV Serivce Canada'
   ],
   authors: [{ name: 'StreamPro' }],
-  metadataBase: new URL('https://streampro.ca'),
+  metadataBase: new URL('https://canadianiptvservices.ca'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
-    url: 'https://streampro.ca/',
+    url: 'https://canadianiptvservices.ca/',
     title: 'StreamPro - Premium IPTV Services in Canada',
     description:
       'Experience premium IPTV with 12,000+ channels, 4K quality, and reliable streaming. Best IPTV service in Canada with 24/7 support.',
@@ -61,13 +61,13 @@ export default function page() {
           "@type": "Organization",
           "name": "StreamPro",
           "description": "Premium IPTV services in Canada",
-          "url": "https://streampro.ca",
-          "logo": "https://streampro.ca/logo.png",
+          "url": "https://canadianiptvservices.ca/",
+          "logo": "https://canadianiptvservices.ca/logo.png",
           "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+1-647-123-4567",
+            "telephone": "+92-347-123-4567",
             "contactType": "customer service",
-            "availableLanguage": ["English", "French"]
+            "availableLanguage": ["English"]
           },
           "areaServed": "Canada",
           "serviceType": "IPTV Service Provider"
