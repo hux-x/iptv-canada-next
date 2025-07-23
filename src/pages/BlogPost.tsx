@@ -23,7 +23,7 @@ const BlogPost = ({ id }: BlogPostProps) => {
           
             <h1 className="text-4xl font-bold text-white mb-4">Post Not Found</h1>
             <p className="text-xl text-gray-300 mb-8">
-              The blog post you're looking for doesn't exist.
+              The blog post you;re looking for doesn;t exist.
             </p>
             <Link href="/blogs" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
               Back to Blog

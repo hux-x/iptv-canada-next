@@ -48,7 +48,7 @@ export default function BlogPage() {
       '@type': 'BlogPosting',
       headline: post.title,
       description: post.excerpt,
-      url: `https://iptvresellerservices.com/blog/${post.slug}`,
+      url: `https://iptvresellerservices.com/blogs/${post.id}`,
       author: {
         '@type': 'Person',
         name: post.author,

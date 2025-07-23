@@ -1,12 +1,11 @@
 import BlogPost from "@/src/pages/BlogPost";
 import { blogPosts } from "../../../src/data/blogs";
 import React from "react";
-import type { Metadata } from "next";
 import FloatingWhatsAppButton from "@/src/components/FloatingWhatsAppButton";
-type PageProps = { params: { id: string } };
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const post = blogPosts.find((p) => p.id === params.id);
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const post = blogPosts.find((p) => p.id === id);
 
   return {
     title: `${post?.title} | Canadian IPTV Services Blog`,
@@ -22,10 +21,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 // Server Component – no "use client"
-export default function Page({ params }: { params: { id: string } }) {
-    const post = blogPosts.find((p) => p.id === params.id);
+export default async function Page({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const post = blogPosts.find((p) => p.id === id);
 
-    const jsonLd =  {
+  if (!post) {
+    return (
+      <div>
+        <h1>Post Not Found</h1>
+        <p>The blog post you are looking for was not found.</p>
+      </div>
+    );
+  }
+
+  const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post?.title,
@@ -47,26 +56,18 @@ export default function Page({ params }: { params: { id: string } }) {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://canadianiptvservices.ca/blog/${post?.slug}`
+      '@id': `https://canadianiptvservices.ca/blog/${post?.id}`
     }
   };
-  if (!post) {
-    return {
-      title: "Post Not Found | Canadian IPTV Services Blog",
-      description: "The blog post you are looking for was not found.",
-    };
-  }
-   
-  return(
-      <>
-   <script
+
+  return (
+    <>
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-       <BlogPost id={params.id} />
-       <FloatingWhatsAppButton/>
-  </>
-  )
-
- 
+      <BlogPost id={id} />
+      <FloatingWhatsAppButton />
+    </>
+  );
 }

@@ -39,7 +39,7 @@ const SportsPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-gray-800 rounded-xl p-8">
-              <h2 className="text-2xl font-bold text-blue-400 mb-6">What You'll Get</h2>
+              <h2 className="text-2xl font-bold text-blue-400 mb-6">What You;ll Get</h2>
               <ul className="space-y-4 text-gray-300">
                 <li className="flex items-start">
                   <span className="text-blue-400 mr-3 text-xl">✓</span>

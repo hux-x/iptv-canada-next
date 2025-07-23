@@ -7,7 +7,7 @@ const EntertainmentPage = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-blue-400 mb-4">Entertainment Universe</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Unlimited access to the world's finest movies, shows, and exclusive content
+            Unlimited access to the world;s finest movies, shows, and exclusive content
           </p>
         </div>
 

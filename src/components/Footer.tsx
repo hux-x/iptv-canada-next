@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="text-2xl font-bold text-blue-400">StreamPro</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Canada's premier IPTV service provider offering high-quality streaming 
+              Canada;s premier IPTV service provider offering high-quality streaming 
               solutions with 24/7 support and competitive pricing.
             </p>
             <div className="flex space-x-4">

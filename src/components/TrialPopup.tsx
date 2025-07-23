@@ -6,7 +6,7 @@ interface TrialPopupProps {
   onClose: () => void;
 }
 
-const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose, text}) => { //for whatsapp redirect for trial or subscription
+const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose,}) => { //for whatsapp redirect for trial or subscription
   if (!visible) return null;
   const generat_text = "You’ll be connected to our WhatsApp representative who will provide you with all the details you need to get started. They'll also provide guide through the process of subscribing to the service.";
   return (
@@ -19,10 +19,10 @@ const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose, text}) => { /
         >
           &times;
         </button>
-        <h2 className="text-2xl font-bold mb-4 text-green-400">Let's Get You Set Up</h2>
+        <h2 className="text-2xl font-bold mb-4 text-green-400">Let;s Get You Set Up</h2>
         <p className="text-base sm:text-lg text-gray-300 mb-6">
          {
-            text? text : generat_text
+            generat_text
           }
         </p>
         <a
