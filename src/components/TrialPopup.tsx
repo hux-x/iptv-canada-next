@@ -6,9 +6,9 @@ interface TrialPopupProps {
   onClose: () => void;
 }
 
-const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose }) => { //for whatsapp redirect for trial or subscription
+const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose, text}) => { //for whatsapp redirect for trial or subscription
   if (!visible) return null;
-
+  const generat_text = "You’ll be connected to our WhatsApp representative who will provide you with all the details you need to get started. They'll also provide guide through the process of subscribing to the service.";
   return (
     <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center px-4">
       <div className="bg-gray-900 text-white max-w-md w-full p-6 rounded-2xl border border-blue-500 shadow-2xl text-center relative animate-fade-in-up">
@@ -21,8 +21,9 @@ const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose }) => { //for 
         </button>
         <h2 className="text-2xl font-bold mb-4 text-green-400">Let's Get You Set Up</h2>
         <p className="text-base sm:text-lg text-gray-300 mb-6">
-          You’ll be connected to our WhatsApp representative who will give you the login
-          details and guide you through setting up the IPTV service.
+         {
+            text? text : generat_text
+          }
         </p>
         <a
           href="https://wa.me/923218542050"
