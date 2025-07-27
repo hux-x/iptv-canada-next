@@ -156,7 +156,7 @@ const Reseller = () => {
                   <p className="text-gray-300 mb-6">{plan.description}</p>
                   <div className="mb-6">
                     <span className="text-4xl font-bold text-white">{plan.price}</span>
-                    <span className="text-gray-400">/{plan.duration}</span>
+                    <span className="text-gray-400"></span>
                   </div>
                   <ul className="space-y-3 mb-8">
                     {plan.features.map((feature, index) => (

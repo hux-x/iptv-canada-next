@@ -8,11 +8,10 @@ const IPTVPanels = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-            Professional IPTV Panels
+            Services we Provide
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            We provide industry-leading IPTV management panels with advanced features 
-            and comprehensive tools for service providers.
+            All your video entertainment needs are met here. From premium movies and TV shows to sports packages and more, we have got you covered.
           </p>
         </div>
         

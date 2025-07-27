@@ -19,21 +19,22 @@ export const iptvPanels: IPTVPanel[] = [
       "Multiple language options",
       "Download for offline viewing"
     ],
-    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&h=600&fit=crop&q=80" // Movie theater screen
+    image: "/PremiumMoviesHub.jpeg" // Movie theater screen
   },
   {
     id: "hockey-central",
-    title: "Hockey Central",
-    description: "Complete hockey coverage with live games and expert analysis",
+    title: "Football Central",
+    description: "Complete Football coverage with live games and expert analysis",
     features: [
-      "Live NHL games",
-      "Minor league coverage",
-      "Classic game replays",
-      "Player statistics",
-      "Multi-angle viewing",
-      "Exclusive documentaries"
+      "Champions League",
+      "English Premier League",
+      "UEFA",
+      "La Liga",
+      "FIFA World Cup",
+      "Serie A",
+      "All Major Football Leagues"
     ],
-    image: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&h=600&fit=crop&q=80" // Hockey game on TV screen
+    image: "/leagues.webp" // Hockey game on TV screen
   },
   {
     id: "canadian-entertainment",
@@ -47,7 +48,7 @@ export const iptvPanels: IPTVPanel[] = [
       "Stand-up comedy specials",
       "Regional favorites"
     ],
-    image: "https://images.unsplash.com/photo-1603201667141-5a2d4c673378?w=800&h=600&fit=crop&q=80" // TV studio production
+    image: "/entertainment.webp" // TV studio production
   },
   {
     id: "outdoor-adventures",
@@ -75,7 +76,7 @@ export const iptvPanels: IPTVPanel[] = [
       "Interactive content",
       "Canadian-made shows"
     ],
-    image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=800&h=600&fit=crop&q=80" // Family watching cartoons
+    image: "/family.jpeg" // Family watching cartoons
   },
   {
     id: "news-network",

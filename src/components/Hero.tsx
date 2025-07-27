@@ -52,7 +52,7 @@ const Hero = () => {
           {/* Image */}
             <div className="relative group">
             <Image
-              src="https://www.dacast.com/wp-content/uploads/2021/03/IPTV.jpg"
+              src="/IPTV.webp"
               alt="Modern IPTV Streaming"
               width={400}
               height={300}
