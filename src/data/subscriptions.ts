@@ -1,4 +1,3 @@
-
 export interface Subscription {
   id: string;
   title: string;
@@ -11,53 +10,56 @@ export interface Subscription {
 
 export const subscriptions: Subscription[] = [
   {
-    id: "basic",
-    title: "Basic Plan",
-    description: "Perfect for individuals and small families",
-    price: "$15",
-    duration: "month",
+    id: "essential",
+    title: "Essential Plan",
+    description: "Perfect for casual viewers",
+    price: "CA$41.28", // £23.59 × 1.75
+    duration: "3 months",
     features: [
-      "5,000+ Live TV Channels",
-      "10,000+ Movies & TV Shows",
-      "HD Quality Streaming",
-      "24/7 Customer Support",
-      "Works on 2 devices"
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
     ]
   },
   {
     id: "premium",
     title: "Premium Plan",
     description: "Most popular choice for families",
-    price: "$25",
-    duration: "month",
+    price: "CA$72.26", // £41.29 × 1.75
+    duration: "6 months",
     features: [
-      "8,000+ Live TV Channels",
-      "15,000+ Movies & TV Shows",
-      "4K Ultra HD Quality",
-      "Premium Sports Channels",
-      "Works on 4 devices",
-      "7-day catch-up TV",
-      "Priority Support"
-    ],
-    popular: true
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ]
   },
   {
     id: "ultimate",
     title: "Ultimate Plan",
-    description: "Complete entertainment package",
-    price: "$35",
-    duration: "month",
+    description: "Complete entertainment solution",
+    price: "CA$123.88", // £70.79 × 1.75
+    duration: "12 months",
     features: [
-      "12,000+ Live TV Channels",
-      "25,000+ Movies & TV Shows",
-      "4K Ultra HD Quality",
-      "All Premium Sports Packages",
-      "Works on 6 devices",
-      "14-day catch-up TV",
-      "Adult Content Available",
-      "Priority Support",
-      "Free Installation Guide"
-    ]
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ],
+    popular: true
   }
 ];
 
@@ -65,50 +67,49 @@ export const resellerPlans: Subscription[] = [
   {
     id: "starter-reseller",
     title: "Starter Reseller",
-    description: "Begin your IPTV reselling journey",
-    price: "$100",
+    description: "Perfect for starting your IPTV business",
+    price: "CA$410.93", // £234.82 × 1.75
     duration: "month",
     features: [
-      "50 Credits per month",
-      "Basic reseller panel",
-      "Standard customer support",
-      "Basic marketing materials",
-      "30% profit margin"
+      "50 Premium Subscriptions",
+      "White-label panel access",
+      "Basic customer support tools",
+      "Monthly profit: CA$875-1,400",
+      "Training materials included",
+      "24/7 technical support"
     ]
   },
   {
-    id: "pro-reseller",
-    title: "Pro Reseller",
-    description: "Scale your IPTV business",
-    price: "$200",
+    id: "business-reseller",
+    title: "Business Reseller",
+    description: "Ideal for growing IPTV businesses",
+    price: "CA$722.43", // £412.82 × 1.75
     duration: "month",
     features: [
-      "150 Credits per month",
-      "Advanced reseller panel",
-      "Priority customer support",
-      "Premium marketing materials",
-      "40% profit margin",
-      "Custom branding options",
-      "Sales analytics dashboard"
+      "100 Premium Subscriptions",
+      "Custom branded panel",
+      "Advanced customer tools",
+      "Monthly profit: CA$2,100-3,150",
+      "Marketing materials provided",
+      "Dedicated account manager",
+      "Priority technical support"
     ],
     popular: true
   },
   {
-    id: "master-reseller",
-    title: "Master Reseller",
-    description: "Complete reselling solution",
-    price: "$350",
+    id: "enterprise-reseller",
+    title: "Enterprise Reseller",
+    description: "For established businesses",
+    price: "CA$1,236.93", // £706.82 × 1.75
     duration: "month",
     features: [
-      "300 Credits per month",
-      "White-label reseller panel",
-      "Dedicated account manager",
-      "Complete marketing suite",
-      "50% profit margin",
-      "Full custom branding",
-      "Advanced analytics",
-      "API access",
-      "Bulk credit discounts"
+      "200 Premium Subscriptions",
+      "Fully customizable panel",
+      "Complete business tools suite",
+      "Monthly profit: CA$4,375-6,125",
+      "Custom API access",
+      "Personal account manager",
+      "White-glove support service"
     ]
   }
 ];
