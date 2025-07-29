@@ -13,7 +13,7 @@ export const subscriptions: Subscription[] = [
     id: "essential",
     title: "Essential Plan",
     description: "Perfect for casual viewers",
-    price: "CA$41.28", // £23.59 × 1.75
+    price: "CA$29.99", // £23.59 × 1.75
     duration: "3 months",
     features: [
       "15,000+ Live Channels",
@@ -30,7 +30,7 @@ export const subscriptions: Subscription[] = [
     id: "premium",
     title: "Premium Plan",
     description: "Most popular choice for families",
-    price: "CA$72.26", // £41.29 × 1.75
+    price: "CA$49.99", // £41.29 × 1.75
     duration: "6 months",
     features: [
       "15,000+ Live Channels",
@@ -47,7 +47,7 @@ export const subscriptions: Subscription[] = [
     id: "ultimate",
     title: "Ultimate Plan",
     description: "Complete entertainment solution",
-    price: "CA$123.88", // £70.79 × 1.75
+    price: "CA$89.00", // £70.79 × 1.75
     duration: "12 months",
     features: [
       "15,000+ Live Channels",
