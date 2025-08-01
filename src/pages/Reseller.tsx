@@ -5,10 +5,7 @@ import Footer from '../components/Footer';
 import TrialButton from '../components/TrialButton';
 import Image from 'next/image';
 
-
 const Reseller = () => {
-
-
   const benefits = [
     {
       title: 'High Profit Margins',
@@ -42,10 +39,54 @@ const Reseller = () => {
     },
   ];
 
+  const planLevels = [
+    {
+      id: 1,
+      title: 'Starter Reseller',
+      description: 'Perfect for individuals looking to start their IPTV business',
+      features: [
+        'Up to 50 active subscribers',
+        'Basic marketing materials',
+        'Email support',
+        'Monthly billing',
+        'Access to reseller dashboard',
+      ],
+      cta: 'Begin your journey'
+    },
+    {
+      id: 2,
+      title: 'Professional Reseller',
+      description: 'Ideal for growing businesses with established customer base',
+      features: [
+        'Up to 500 active subscribers',
+        'Advanced marketing toolkit',
+        'Priority email & chat support',
+        'Weekly billing options',
+        'Custom branding available',
+        'Performance analytics',
+      ],
+      cta: 'Scale your business',
+      popular: true
+    },
+    {
+      id: 3,
+      title: 'Enterprise Reseller',
+      description: 'For large-scale operations with high volume needs',
+      features: [
+        'Unlimited subscribers',
+        'Dedicated account manager',
+        '24/7 phone support',
+        'Custom billing solutions',
+        'API access',
+        'Advanced reporting',
+        'Bulk activation tools',
+      ],
+      cta: 'Build your empire'
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-gray-900 relative">
-   
-
       <Navbar />
 
       {/* Hero Section */}
@@ -57,8 +98,10 @@ const Reseller = () => {
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Join our reseller program and start your own profitable IPTV business. We provide everything you need to succeed in the growing streaming market.
           </p>
-        
-          <TrialButton text='Start Your Business Today' className='bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors'/>
+          <TrialButton 
+            text='Start Your Business Today' 
+            className='bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors'
+          />
         </div>
       </div>
 
@@ -130,18 +173,18 @@ const Reseller = () => {
         </div>
       </section>
 
-      {/* Reseller Plans Section */}
+      {/* Reseller Tiers Section */}
       <section className="py-16 bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Reseller Plans</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Reseller Tiers</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Choose the perfect reseller plan to match your business goals and budget.
+              We offer customized solutions for resellers at every stage of growth. Contact us for pricing tailored to your needs.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {resellerPlans.map((plan) => (
+            {planLevels.map((plan) => (
               <div
                 key={plan.id}
                 className={`bg-gray-900 rounded-xl shadow-lg hover:shadow-xl transition-all border-2 overflow-hidden ${
@@ -149,15 +192,11 @@ const Reseller = () => {
                 }`}
               >
                 {plan.popular && (
-                  <div className="bg-blue-500 text-white text-center py-2 font-semibold">Most Popular</div>
+                  <div className="bg-blue-500 text-white text-center py-2 font-semibold">Recommended</div>
                 )}
                 <div className="p-8">
                   <h3 className="text-2xl font-bold text-white mb-2">{plan.title}</h3>
                   <p className="text-gray-300 mb-6">{plan.description}</p>
-                  <div className="mb-6">
-                    <span className="text-4xl font-bold text-white">{plan.price}</span>
-                    <span className="text-gray-400"></span>
-                  </div>
                   <ul className="space-y-3 mb-8">
                     {plan.features.map((feature, index) => (
                       <li key={index} className="flex items-start">
@@ -176,15 +215,81 @@ const Reseller = () => {
                       </li>
                     ))}
                   </ul>
-              
-                  <TrialButton text="Get Started"  className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors ${
+                  <TrialButton 
+                    text={plan.cta} 
+                    className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors ${
                       plan.popular
                         ? 'bg-blue-600 text-white hover:bg-blue-700'
                         : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-                    }`} />
+                    }`} 
+                  />
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Custom Solutions CTA */}
+          <div className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-8 text-center">
+            <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">Need a Custom Solution?</h3>
+            <p className="text-lg text-blue-100 mb-6 max-w-3xl mx-auto">
+              We work with high-volume resellers to create tailored packages with special pricing and features.
+            </p>
+            <TrialButton 
+              text="Request Custom Plan" 
+              className="bg-white text-blue-800 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-blue-100 transition-colors"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Section */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">How Our Reseller Program Works</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Simple steps to start and grow your IPTV reselling business
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {[
+              {
+                step: "1",
+                title: "Contact Us",
+                description: "Get in touch to discuss your needs and choose the right reseller tier"
+              },
+              {
+                step: "2",
+                title: "Get Approved",
+                description: "Complete our quick verification process"
+              },
+              {
+                step: "3",
+                title: "Receive Credentials",
+                description: "Get access to your reseller dashboard and resources"
+              },
+              {
+                step: "4",
+                title: "Start Selling",
+                description: "Begin offering services to your customers"
+              }
+            ].map((item, index) => (
+              <div key={index} className="bg-gray-800 p-6 rounded-lg border border-gray-700 text-center">
+                <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+                  {item.step}
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
+                <p className="text-gray-300">{item.description}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <TrialButton 
+              text="Ready to Get Started?" 
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors"
+            />
           </div>
         </div>
       </section>
