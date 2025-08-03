@@ -1,5 +1,4 @@
 import React from 'react';
-import { resellerPlans } from '../data/subscriptions';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import TrialButton from '../components/TrialButton';
