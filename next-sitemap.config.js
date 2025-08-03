@@ -2,7 +2,7 @@
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const {blogPosts} = require('./src/data/blogs')
 module.exports = {
-  siteUrl: 'https://canadianiptvservices.com',
+  siteUrl: 'https://canadianiptvservices.ca',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   exclude: ['/admin/*','/BlogPost','/Blogs','/FAQ','/Index','/NotFound','/Reseller'], // if needed
