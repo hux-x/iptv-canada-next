@@ -1,4 +1,4 @@
-import BlogPost from "@/src/pages/BlogPost";
+import BlogPost from "@/src/sections/BlogPost";
 import { blogPosts } from "../../../src/data/blogs";
 import React from "react";
 import FloatingWhatsAppButton from "@/src/components/FloatingWhatsAppButton";

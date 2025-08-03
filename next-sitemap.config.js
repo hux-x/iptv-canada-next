@@ -5,7 +5,7 @@ module.exports = {
   siteUrl: 'https://canadianiptvservices.ca',
   generateRobotsTxt: true,
   sitemapSize: 7000,
-  exclude: ['/admin/*','/BlogPost','/Blogs','/FAQ','/Index','/NotFound','/Reseller'], // if needed
+  exclude: ['/admin/*'], // if needed
 
   // Optional: Add transform to customize routes
   transform: async (config, path) => {

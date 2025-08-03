@@ -1,5 +1,5 @@
 import FloatingWhatsAppButton from '@/src/components/FloatingWhatsAppButton';
-import Blogs from '../../src/pages/Blogs'
+import Blogs from '../../src/sections/BlogsPage'
 import React from 'react'
 import { blogPosts } from '@/src/data/blogs';
 export const metadata = {

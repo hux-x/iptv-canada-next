@@ -1,5 +1,5 @@
 import FloatingWhatsAppButton from "@/src/components/FloatingWhatsAppButton";
-import FAQPage from "@/src/pages/FAQ";
+import FAQPage from "@/src/sections/FAQPage";
 import React from 'react'
 export const metadata = {
   title: 'FAQs | Canadian IPTV Services',

@@ -1,5 +1,5 @@
 import FloatingWhatsAppButton from "@/src/components/FloatingWhatsAppButton";
-import Reseller from "@/src/pages/Reseller";
+import Reseller from "@/src/sections/ResellerPage";
 import React from 'react'
 export const metadata = {
   title: 'Become an IPTV Reseller | Canadian IPTV Services',

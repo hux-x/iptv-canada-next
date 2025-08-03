@@ -1,5 +1,5 @@
 import FloatingWhatsAppButton from '@/src/components/FloatingWhatsAppButton';
-import Home from '../src/pages/Index'
+import Home from '../src/sections/Index'
 import React from 'react'
 export const metadata = {
   title: 'Canadian IPTV Services - Premium IPTV Services in Canada | Best IPTV Provider',
