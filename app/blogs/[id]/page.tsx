@@ -2,15 +2,14 @@ import BlogPost from "@/src/pages/BlogPost";
 import { blogPosts } from "../../../src/data/blogs";
 import React from "react";
 import FloatingWhatsAppButton from "@/src/components/FloatingWhatsAppButton";
-
 export function generateStaticParams() {
   return blogPosts.map((post) => ({
     id: post.id,
   }));
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const { id } = params;
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const post = blogPosts.find((p) => p.id === id);
 
   return {
@@ -26,8 +25,9 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   };
 }
 
-export default async function Page({ params }: { params: { id: string } }) {
-  const { id } = params;
+// Server Component – no "use client"
+export default async function Page({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const post = blogPosts.find((p) => p.id === id);
 
   if (!post) {
@@ -46,7 +46,7 @@ export default async function Page({ params }: { params: { id: string } }) {
     description: post?.excerpt,
     image: post?.image,
     datePublished: post?.date,
-    dateModified: post?.date,
+    dateModified: post?.date || post?.date,
     author: {
       '@type': 'Person',
       name: post?.author

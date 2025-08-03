@@ -13,7 +13,8 @@ module.exports = {
       {
         protocol: 'https',
         hostname: '**', // Wildcard to allow all HTTPS domains
-      },
+      }
     ],
+    unoptimized: true, // Disable image optimization
   },
 };
