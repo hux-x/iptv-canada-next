@@ -486,7 +486,7 @@ export const blogPosts = [
               <h3 class="text-xl font-semibold text-white mb-4 flex items-center">
                 🔧 Flexibility and Convenience
               </h3>
-              <div class="overflow-x-auto">
+              <div class="overflow-x-auto">https://canadianiptvservices.com/blogs/iptv-vs-cable-tv
                 <table class="w-full text-sm">
                   <thead>
                     <tr class="border-b border-gray-600">

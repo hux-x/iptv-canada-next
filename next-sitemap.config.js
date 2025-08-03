@@ -22,7 +22,7 @@ module.exports = {
  
 
     return blogPosts.map((post) => ({
-      loc: `https://canadianiptvservices.com/blogs/${post.id}`,
+      loc: `https://canadianiptvservices.ca/blogs/${post.id}`,
       lastmod: new Date(post.date).toISOString(),
       changefreq: 'daily',
       priority: 0.7,

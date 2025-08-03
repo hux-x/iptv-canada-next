@@ -61,7 +61,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://canadianiptvservices.ca/blog/${post?.id}`
+      '@id': `https://canadianiptvservices.ca/blogs/${post?.id}`
     }
   };
 
