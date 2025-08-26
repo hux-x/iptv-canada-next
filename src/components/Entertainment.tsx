@@ -16,7 +16,7 @@ const EntertainmentPage = () => {
             <h2 className="text-2xl font-bold text-blue-400 mb-6">Featured This Week</h2>
             <div className="aspect-w-16 aspect-h-9 mb-6">
               <Image
-              src="https://images.unsplash.com/photo-1536440136628-849c177e76a1"
+              src="/collections.webp"
               alt="Featured Content"
               className="rounded-lg w-full h-64 object-cover"
               width={800}
