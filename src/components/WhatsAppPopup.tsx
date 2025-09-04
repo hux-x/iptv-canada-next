@@ -3,7 +3,7 @@ import React from 'react';
 
 const WhatsappPopup = ({ onClose }: { onClose: () => void }) => {
   const whatsappLink =
-    'https://wa.me/11234567890?text=Hi%2C%20I%27m%20interested%20in%20your%20IPTV%20reseller%20program.';
+    'https://wa.me/+12363003045?text=Hi%2C%20I%27m%20interested%20in%20your%20IPTV%20reseller%20program.';
 
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center">

@@ -26,7 +26,7 @@ const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose,}) => { //for 
           }
         </p>
         <a
-          href="https://wa.me/923218542050"
+          href="https://wa.me/+12363003045"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition"

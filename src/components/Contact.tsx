@@ -36,7 +36,7 @@ export default function Contact() {
                     {/* Icon */}
                   </div>
                   <a
-                    href="https://wa.me/923218542050"
+                    href="https://wa.me/+12363003045"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center hover:bg-blue-950/30 transition rounded-lg p-2 -m-2"

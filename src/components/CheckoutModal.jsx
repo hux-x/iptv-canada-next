@@ -30,7 +30,7 @@ const CheckoutModal = ({ isOpen, onClose, onConfirm, cartItems, totalPrice }) =>
   const handleWhatsAppRedirect = () => {
     const message = formatCartMessage();
     // Replace with your actual WhatsApp number
-    const whatsappUrl = `https://wa.me/+11234567890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+12363003045?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     onConfirm();
   };

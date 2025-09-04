@@ -1,16 +1,15 @@
 'use client'
 import React, { useState } from 'react';
-import {usePathname} from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 import TrialPopup from './TrialPopup'; // Adjust path as needed
+import CartIcon from './CartIcon';     // Import the cart icon
 
 const Navbar = () => {
- const pathname = usePathname();
+  const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
   const [open, setOpen] = useState(false);
-
-
   const [showPopup, setShowPopup] = useState(false);
 
   return (
@@ -43,6 +42,9 @@ const Navbar = () => {
                 </Link>
               ))}
 
+              {/* Cart Icon (Desktop) */}
+              <CartIcon />
+
               <button
                 className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors"
                 onClick={() => setShowPopup(true)}
@@ -52,7 +54,10 @@ const Navbar = () => {
             </div>
 
             {/* Mobile hamburger */}
-            <div className="md:hidden flex items-center">
+            <div className="md:hidden flex items-center space-x-2">
+              {/* Cart Icon (Mobile, beside hamburger) */}
+              <CartIcon />
+
               <button
                 type="button"
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none"
@@ -93,7 +98,7 @@ const Navbar = () => {
               { path: '/', label: 'Home' },
               { path: '/blogs', label: 'Blog' },
               { path: '/reseller', label: 'Reseller' },
-              { path: '/faq', label: 'FAQ' },
+              { path: '/faqs', label: 'FAQ' },
             ].map(({ path, label }) => (
               <Link
                 key={path}

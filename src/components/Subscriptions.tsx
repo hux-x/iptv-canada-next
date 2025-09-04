@@ -1,10 +1,10 @@
+"use client"
 import React from 'react';
 import { subscriptions } from '../data/subscriptions';
-
-import TrialButton from './TrialButton';
+import { useCart } from './CartContext';
 
 const Subscriptions = () => {
-  
+  const { addToCart } = useCart();
 
   return (
     <section className="py-16 bg-gray-800" id="subscriptions">
@@ -57,12 +57,19 @@ const Subscriptions = () => {
                     </li>
                   ))}
                 </ul>
-              
-                <TrialButton text='Get Started' className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors ${
-                    plan.popular
-                      ? 'bg-blue-600 text-white hover:bg-blue-700'
-                      : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-                  }`}/>
+
+                <div className="flex gap-4">
+                  <button
+                    onClick={() => addToCart(plan)}
+                    className={`w-100 py-3 px-6 rounded-lg font-semibold transition-colors ${
+                      plan.popular
+                        ? 'bg-green-600 text-white hover:bg-green-700'
+                        : 'bg-gray-600 text-white hover:bg-gray-500'
+                    }`}
+                  >
+                    Add to Cart
+                  </button>
+                </div>
               </div>
             </div>
           ))}
