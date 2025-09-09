@@ -5,7 +5,7 @@ import { blogPosts } from '../data/blogs';
 import Image from 'next/image';
 
 const BlogPreview = () => {
-  const recentPosts = blogPosts.slice(0, 3);
+  const recentPosts = blogPosts.slice(-3);
   
   return (
     <section className="py-16 bg-gray-900">
