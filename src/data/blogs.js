@@ -12,8 +12,8 @@
 
 export const blogPosts = [
   {
-    id: "best-iptv-canada-2024",
-    title: "Best IPTV Services in Canada for 2024",
+    id: "best-iptv-canada-2025",
+    title: "Best IPTV Services in Canada for 2025",
     excerpt: "Discover the top IPTV services available in Canada, featuring comprehensive channel lineups, reliable streaming, and competitive pricing.",
     content: `
       <div class="space-y-8">
@@ -96,7 +96,7 @@ export const blogPosts = [
       </div>
     `,
     author: "Sarah Mitchell",
-    date: "2024-01-15",
+    date: "2025-01-15",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=400&fit=crop",
     tags: ["IPTV", "Canada", "Streaming", "2024"]
   },
@@ -619,6 +619,443 @@ export const blogPosts = [
     date: "2024-01-05",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=400&fit=crop",
     tags: ["Comparison", "Cable TV", "IPTV", "Analysis"]
-  }
+  },
+{
+  id: "xtream-iptv-guide-2025",
+  title: "Xtream IPTV: Complete Guide to Setup and Features",
+  excerpt: "Learn everything about Xtream IPTV, from its features and setup process to device compatibility, streaming quality, and more in 2025.",
+  content: `
+    <div class="space-y-8">
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Introduction</h2>
+        <div class="bg-blue-900 rounded-lg p-6 mb-6">
+          <h3 class="text-blue-300 font-semibold mb-2">📢 Start Streaming with Us</h3>
+          <p class="text-blue-100 leading-relaxed">
+            We provide reliable Xtream IPTV services with instant setup and seamless performance across all devices. 
+            Get access to live TV, movies, sports, and more today. 
+            <a href="/" class="underline text-blue-400 hover:text-blue-200">Click here to explore our IPTV plans</a>.
+          </p>
+        </div>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Xtream IPTV has become one of the most popular IPTV solutions worldwide, offering flexible streaming options and powerful account management features. In 2024, it continues to gain traction among cord-cutters looking for a reliable, customizable, and user-friendly way to watch television. With support for live TV, video-on-demand (VOD), and catch-up features, Xtream IPTV offers a streaming experience that rivals—and in many cases surpasses—traditional cable TV.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          In this guide, we’ll break down everything you need to know about Xtream IPTV: what it is, how it works, its features, setup process, device compatibility, and key benefits. Whether you’re new to IPTV or an experienced streamer, this comprehensive overview will help you make an informed choice.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">What is Xtream IPTV?</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Xtream IPTV is not a single streaming service but rather a protocol and management system used by many IPTV providers. It uses the <strong class="text-white">Xtream Codes API</strong>, which allows users to log in to IPTV apps and access their subscribed channels, movies, and series. This makes it highly versatile, as you can use the same login across different devices and apps without needing to rely on one specific platform.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          By providing a centralized way to manage user credentials, subscription packages, and content access, Xtream IPTV has become a standard in the IPTV industry. Many providers rely on it because of its scalability, efficiency, and ease of integration with third-party apps and players.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Key Features of Xtream IPTV</h2>
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+          <ul class="space-y-3 text-gray-300">
+            <li class="flex items-start">
+              <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded mr-3 mt-1 flex-shrink-0">1</span>
+              <div>
+                <strong class="text-white">Unified Login:</strong> Users can log in to any compatible IPTV app using their Xtream Codes credentials (username, password, and server URL).
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded mr-3 mt-1 flex-shrink-0">2</span>
+              <div>
+                <strong class="text-white">Live TV Streaming:</strong> Xtream IPTV supports thousands of live TV channels from around the world, depending on your provider’s offerings.
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded mr-3 mt-1 flex-shrink-0">3</span>
+              <div>
+                <strong class="text-white">Video on Demand (VOD):</strong> Many providers offer extensive libraries of movies and TV shows with the Xtream IPTV system.
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded mr-3 mt-1 flex-shrink-0">4</span>
+              <div>
+                <strong class="text-white">Catch-Up TV:</strong> Missed a show? Some providers allow you to re-watch past broadcasts through the catch-up feature.
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded mr-3 mt-1 flex-shrink-0">5</span>
+              <div>
+                <strong class="text-white">Multi-Device Support:</strong> Compatible with Smart TVs, Android and iOS apps, Firestick, MAG boxes, Kodi, and more.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">How to Set Up Xtream IPTV</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Setting up Xtream IPTV is straightforward. Most providers will give you three essential details: a username, a password, and a server URL. You’ll use these credentials in your IPTV app of choice. Here’s a general step-by-step process:
+        </p>
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+          <ol class="space-y-3 text-gray-300 list-decimal pl-5">
+            <li>Choose an IPTV app that supports Xtream Codes (such as IPTV Smarters Pro, Tivimate, or GSE Smart IPTV).</li>
+            <li>Open the app and select the Xtream Codes API login option.</li>
+            <li>Enter the server URL, username, and password provided by your IPTV service.</li>
+            <li>Save the profile and let the app load the channels, movies, and shows.</li>
+            <li>Start streaming live TV or on-demand content instantly.</li>
+          </ol>
+        </div>
+        <p class="text-gray-300 leading-relaxed">
+          The exact steps may vary slightly depending on your chosen app, but the process remains simple and user-friendly.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Advantages of Using Xtream IPTV</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Xtream IPTV offers several benefits that make it appealing for both users and providers:
+        </p>
+        <ul class="space-y-2 text-gray-300 list-disc pl-6">
+          <li>Convenient centralized login system.</li>
+          <li>Access to a wide variety of content, including international channels.</li>
+          <li>High-quality streaming, often supporting HD and 4K content.</li>
+          <li>Customizable apps and interfaces depending on the player you use.</li>
+          <li>Ability to use the same subscription across multiple devices.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Conclusion</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Xtream IPTV has become a cornerstone of modern IPTV streaming, offering a flexible and user-friendly way to enjoy live TV, movies, and series. With its centralized login system, wide compatibility, and robust feature set, it continues to dominate the IPTV market in 2024. However, the experience you get depends on your provider, so choose wisely.
+        </p>
+        <div class="bg-blue-900 rounded-lg p-6 mb-6">
+          <h3 class="text-blue-300 font-semibold mb-2">💡 Pro Tip</h3>
+          <p class="text-blue-100">
+            Before committing to a long-term IPTV plan, test the service on your preferred devices with a short-term subscription or free trial. This ensures the provider meets your expectations in terms of quality, reliability, and channel variety.
+          </p>
+        </div>
+        <div class="bg-green-900 border border-green-700 rounded-lg p-6">
+          <h3 class="text-green-300 font-semibold mb-2">📢 Disclaimer</h3>
+          <p class="text-green-100">
+            We provide Xtream IPTV services directly. If you’d like to explore our IPTV plans and get started, please <a href="/" class="text-blue-400 underline">click here</a> to visit our homepage.
+          </p>
+        </div>
+      </section>
+    </div>
+  `,
+  author: "James Carter",
+  date: "2025-09-09",
+  image: "/xtream.png",
+  tags: [
+    "Xtream IPTV",
+    "Xtream Codes",
+    "IPTV setup guide",
+    "Best IPTV 2024",
+    "IPTV apps",
+    "Xtream IPTV features",
+    "IPTV streaming",
+    "Xtream IPTV Canada",
+    "Xtream IPTV login",
+    "Xtream IPTV review"
+  ]
+},
+{
+  id: "get-m3u-link-2025",
+  title: "Get Your M3U Link: Complete IPTV Setup Guide for 2025",
+  excerpt: "Find out how to get a working M3U link, set it up on your devices, and start streaming IPTV instantly in 2025.",
+  content: `
+    <div class="space-y-8">
+      <!-- Introduction -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Introduction</h2>
+        <div class="bg-blue-900 rounded-lg p-6 mb-6">
+          <h3 class="text-blue-300 font-semibold mb-2">📢 Get Your M3U Link Now</h3>
+          <p class="text-blue-100 leading-relaxed">
+            We provide secure, ready-to-use M3U links that work on all devices. 
+            Get instant access to live TV, sports, movies, and more. 
+            <a href="/" class="underline text-blue-400 hover:text-blue-200">Click here to get your M3U link today</a>.
+          </p>
+        </div>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          If you're exploring IPTV, chances are you've come across the term <strong>M3U link</strong>. 
+          This small but powerful link is what unlocks your entire IPTV experience — 
+          giving you access to live TV channels, movies, and on-demand content on any device.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          In this guide, we’ll explain what an M3U link is, how to get one, and how to use it for seamless IPTV streaming in 2024.
+        </p>
+      </section>
+
+      <!-- What is an M3U Link -->
+      <section>
+        <h2 class="text-2xl font-bold text-white mb-4">What is an M3U Link?</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          An <strong>M3U link</strong> is a playlist file that contains the streaming sources for IPTV channels. 
+          Instead of adding channels one by one, the M3U link gives you access to hundreds or even thousands of channels instantly. 
+        </p>
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+          <li>Contains all live TV channels from your IPTV provider</li>
+          <li>Works across smart TVs, Android, iOS, PC, and IPTV players</li>
+          <li>Enables access to both live and on-demand content</li>
+        </ul>
+      </section>
+
+      <!-- How to Get an M3U Link -->
+      <section>
+        <h2 class="text-2xl font-bold text-white mb-4">How to Get an M3U Link</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Getting an M3U link is simple. Most IPTV providers, including us, generate a personalized link when you sign up. 
+          This link works only for you and is updated regularly to ensure smooth streaming.
+        </p>
+        <ol class="list-decimal list-inside text-gray-300 space-y-2">
+          <li>Choose a trusted IPTV provider.</li>
+          <li>Sign up for a subscription plan.</li>
+          <li>Receive your <strong>M3U link</strong> via email or dashboard.</li>
+          <li>Paste the link into your IPTV player app and start streaming.</li>
+        </ol>
+        <p class="text-gray-300 mt-4">
+          👉 <a href="/" class="text-blue-400 underline hover:text-blue-200">Get your M3U link here</a> and unlock IPTV instantly.
+        </p>
+      </section>
+
+      <!-- How to Use an M3U Link -->
+      <section>
+        <h2 class="text-2xl font-bold text-white mb-4">How to Use an M3U Link</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Once you’ve received your M3U link, you need an IPTV player to load it. 
+          The setup process is usually quick and works across multiple devices:
+        </p>
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+          <li><strong>Smart TVs</strong>: Install an IPTV player app and paste your link.</li>
+          <li><strong>Android/iOS</strong>: Use apps like IPTV Smarters or GSE Smart IPTV.</li>
+          <li><strong>Windows/Mac</strong>: VLC Media Player works perfectly with M3U links.</li>
+          <li><strong>Firestick/Android Box</strong>: Download IPTV Smarters Pro and enter your link.</li>
+        </ul>
+      </section>
+
+      <!-- Benefits -->
+      <section>
+        <h2 class="text-2xl font-bold text-white mb-4">Benefits of Using an M3U Link</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          An M3U link makes IPTV streaming easy, convenient, and flexible. Here are some top benefits:
+        </p>
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+          <li>Access to thousands of channels with one link</li>
+          <li>Works on multiple devices at the same time</li>
+          <li>No need for satellite dishes or cable connections</li>
+          <li>Easy updates — your playlist refreshes automatically</li>
+        </ul>
+      </section>
+
+      <!-- CTA -->
+      <section>
+        <h2 class="text-2xl font-bold text-white mb-4">Get Your M3U Link Today</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Ready to start streaming? An M3U link is all you need to unlock the world of IPTV. 
+          Whether you’re into sports, movies, or live international TV, everything is just one link away.
+        </p>
+        <div class="bg-green-900 rounded-lg p-6">
+          <h3 class="text-green-300 font-semibold mb-2">🎬 Start Streaming Now</h3>
+          <p class="text-green-100 leading-relaxed">
+            Get your personal M3U link and enjoy unlimited IPTV content across all devices. 
+            <a href="/" class="underline text-green-400 hover:text-green-200">Click here to get your M3U link today</a>.
+          </p>
+        </div>
+      </section>
+    </div>
+  `,
+  author: "Sarah Mitchell",
+  date: "2025-09-09",
+  image: "/m3u.jpeg",
+  tags: [
+    "Get M3U Link", 
+    "M3U IPTV", 
+    "IPTV Playlist", 
+    "M3U Link IPTV", 
+    "Best IPTV 2024", 
+    "IPTV setup guide", 
+    "M3U link guide", 
+    "M3U player", 
+    "IPTV Canada"
+  ]
+},
+{
+  id: "tivimate-guide-2025",
+  title: "Tivimate IPTV: Get it now and Complete Setup Guide for 2025",
+  excerpt: "Learn how to set up Tivimate for IPTV, add M3U or Xtream links, use EPG, and get the most out of this powerful Android TV IPTV player.",
+  content: `
+    <div class="space-y-8">
+      <!-- Promo (only at the start) -->
+      <section>
+        <div class="bg-blue-900 rounded-lg p-6 mb-6">
+          <h3 class="text-blue-300 font-semibold mb-2">📢 Ready for Tivimate?</h3>
+          <p class="text-blue-100 leading-relaxed">
+            Looking for a ready-to-use IPTV subscription that works flawlessly with Tivimate? We provide pre-configured M3U and Xtream links, EPG support, and fast setup so you can start streaming immediately.
+            <a href="/" class="underline text-blue-400 hover:text-blue-200">Get your Tivimate-ready IPTV here</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Introduction -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Introduction</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Tivimate has become the go-to IPTV player for Android TV and Fire TV users who want a clean, TV-friendly interface combined with powerful playlist and EPG features. It doesn’t provide channels itself — instead, Tivimate transforms your IPTV subscription (M3U playlists or Xtream Codes) into a polished, cable-like experience with an electronic program guide, favorites, catch-up options, and more.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          This guide covers everything from installation and setup to advanced tips so you can get the best performance out of Tivimate in 2024–2025.
+        </p>
+      </section>
+
+      <!-- What is Tivimate -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">What is Tivimate?</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Tivimate is a specialized IPTV player optimized for TV screens. It supports M3U playlists and Xtream Codes, provides an intuitive EPG, lets you organize channels into groups, and includes premium capabilities like recording and catch-up. Because of its polished UI and robust feature set, many users prefer Tivimate over generic players when building a modern IPTV setup.
+        </p>
+      </section>
+
+      <!-- Key Features -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Key Features</h2>
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+          <ul class="space-y-4 text-gray-300">
+            <li>
+              <strong class="text-white">Modern TV interface:</strong> Designed for remote control navigation and large-screen viewing.
+            </li>
+            <li>
+              <strong class="text-white">EPG Integration:</strong> Full electronic program guide support for channel schedules and program info.
+            </li>
+            <li>
+              <strong class="text-white">Multiple Playlists:</strong> Add several M3U playlists or Xtream accounts and switch between them.
+            </li>
+            <li>
+              <strong class="text-white">Favorites & Custom Groups:</strong> Quickly access preferred channels and organize content.
+            </li>
+            <li>
+              <strong class="text-white">Recording & Catch-Up (Premium):</strong> Schedule recordings and rewatch recent broadcasts.
+            </li>
+            <li>
+              <strong class="text-white">Parental Controls:</strong> PIN-protect channels and settings.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Installation -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">How to Install Tivimate</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Tivimate is available on the Google Play Store for Android TV devices and compatible Android boxes. Follow these steps to install:
+        </p>
+        <ol class="list-decimal list-inside text-gray-300 space-y-2 mb-4">
+          <li>Open the Google Play Store on your Android TV or Android box.</li>
+          <li>Search for <strong>Tivimate IPTV Player</strong> and install the app.</li>
+          <li>Launch Tivimate from your apps list and accept any initial prompts.</li>
+          <li>Optionally, purchase Tivimate Premium via Google Play to unlock advanced features.</li>
+        </ol>
+        <p class="text-gray-300">
+          Tivimate is not available on iOS — it’s built specifically for Android TV environments.
+        </p>
+      </section>
+
+      <!-- Setup with M3U or Xtream -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Setting Up Tivimate (M3U & Xtream)</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Tivimate supports both M3U links and the Xtream Codes API. Your IPTV provider will give you either an M3U URL/file or Xtream credentials (server, username, password). Here’s how to add them:
+        </p>
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+          <h3 class="text-white font-semibold mb-2">Add an M3U Playlist</h3>
+          <ol class="list-decimal list-inside text-gray-300 space-y-2">
+            <li>Open Tivimate → Playlists → Add playlist → Enter URL.</li>
+            <li>Paste your M3U link, give it a name, and save.</li>
+            <li>Optionally add the EPG URL provided by your service to populate program guides.</li>
+            <li>Refresh the playlist and wait for channels to load.</li>
+          </ol>
+
+          <h3 class="text-white font-semibold mt-4 mb-2">Add an Xtream Account</h3>
+          <ol class="list-decimal list-inside text-gray-300 space-y-2">
+            <li>Choose Add playlist → Xtream Codes Login.</li>
+            <li>Enter server URL, username, and password from your provider.</li>
+            <li>Save and let Tivimate import channels and EPG data automatically.</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Tips for Best Experience -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Tips for the Best Tivimate Experience</h2>
+        <ul class="list-disc list-inside text-gray-300 space-y-2 mb-4">
+          <li>Use a fast, stable internet connection (5–10 Mbps per stream recommended for HD).</li>
+          <li>Prefer Xtream login when available — it often provides better EPG and category mapping.</li>
+          <li>Keep your EPG URL updated to ensure accurate program schedules.</li>
+          <li>Use Tivimate Premium if you want recording, multiple playlists, and cloud sync.</li>
+          <li>Organize channels into favorites and groups for quicker access.</li>
+        </ul>
+        <div class="bg-blue-900 rounded-lg p-4">
+          <p class="text-blue-100">Pro Tip: If channels fail to load, try restarting the app or re-adding the playlist — sometimes providers rotate stream sources and a refresh fixes it.</p>
+        </div>
+      </section>
+
+      <!-- Pros and Cons -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Pros & Cons</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-gray-800 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Pros</h3>
+            <ul class="list-disc list-inside text-gray-300 space-y-2">
+              <li>Excellent TV-optimized UI</li>
+              <li>Rich EPG support</li>
+              <li>Flexible playlist management</li>
+              <li>Premium features for power users</li>
+            </ul>
+          </div>
+          <div class="bg-gray-800 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Cons</h3>
+            <ul class="list-disc list-inside text-gray-300 space-y-2">
+              <li>Android-only (no native iOS app)</li>
+              <li>Requires a separate IPTV subscription</li>
+              <li>Premium features require a paid license</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Conclusion (no promo here) -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Conclusion</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Tivimate is a top-tier IPTV player for anyone using Android TV, Fire TV, or Android boxes. With strong EPG support, playlist flexibility, and a polished interface, it turns raw IPTV links into a cable-like viewing experience. Pair Tivimate with a reliable IPTV provider and you’ll have a modern, dependable TV setup that’s easy to navigate and customize.
+        </p>
+        <div class="bg-blue-900 rounded-lg p-6">
+          <h3 class="text-blue-300 font-semibold mb-2">💡 Final Tip</h3>
+          <p class="text-blue-100">If you’re setting up Tivimate for the first time, start with a short trial from a trusted provider so you can test M3U/Xtream and EPG compatibility on your device before committing long-term.</p>
+        </div>
+      </section>
+    </div>
+  `,
+  author: "Sarah Mitchell",
+  date: "2025-09-09",
+  image: "/tivimate.jpeg",
+  tags: [
+    "Tivimate",
+    "Tivimate setup",
+    "Tivimate guide 2025",
+    "IPTV player",
+    "M3U Tivimate",
+    "Xtream Tivimate",
+    "Tivimate EPG",
+    "Tivimate premium",
+    "IPTV setup guide",
+    "Tivimate tutorial"
+  ]
+}
+
+
+
+
 ];
 export const blogsids = blogPosts.map(blog => blog.id);

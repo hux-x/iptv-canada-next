@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const { blogPosts } = require('./src/data/blogs');
+
 
 module.exports = {
   siteUrl: 'https://canadianiptvservices.ca',
@@ -16,16 +16,5 @@ module.exports = {
     };
   },
 
-  additionalPaths: async () => {
-    return blogPosts.map((post) => {
-      const cleanId = post.id.replace(/^https?:\/\/[^/]+\/blogs\//, '');
-
-      return {
-        loc: `https://canadianiptvservices.ca/blogs/${cleanId}`,
-        lastmod: new Date(post.date).toISOString(),
-        changefreq: 'daily',
-        priority: 0.7,
-      };
-    });
-  },
+ 
 };
