@@ -14,24 +14,35 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gray-900 shadow-sm border-b border-gray-800 sticky top-0 z-50">
+      <nav 
+        className="bg-gray-900 shadow-sm border-b border-gray-800 sticky top-0 z-50"
+        role="navigation" 
+        aria-label="Best IPTV Canada 2025 main navigation"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-blue-400">Canadian IPTV Services</span>
+            <Link 
+              href="/" 
+              className="flex items-center"
+              aria-label="Canadian IPTV Services - Best IPTV Provider in Canada 2025"
+            >
+              <span className="text-2xl font-bold text-blue-400">
+                Canadian IPTV Services
+              </span>
             </Link>
 
             {/* Desktop menu */}
             <div className="hidden md:flex items-center space-x-8">
               {[
-                { path: '/', label: 'Home' },
-                { path: '/blogs', label: 'Blog' },
-                { path: '/reseller', label: 'Reseller' },
-                { path: '/faqs', label: 'FAQ' },
-              ].map(({ path, label }) => (
+                { path: '/', label: 'Best IPTV Canada', ariaLabel: 'Best IPTV service in Canada 2025' },
+                { path: '/blogs', label: 'IPTV Blog', ariaLabel: 'IPTV guides and tutorials' },
+                { path: '/reseller', label: 'IPTV Reseller', ariaLabel: 'Become an IPTV reseller in Canada' },
+                { path: '/faqs', label: 'IPTV FAQ', ariaLabel: 'Frequently asked questions about IPTV service' },
+              ].map(({ path, label, ariaLabel }) => (
                 <Link
                   key={path}
                   href={path}
+                  aria-label={ariaLabel}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                     isActive(path)
                       ? 'text-blue-400 bg-blue-900/50'
@@ -48,8 +59,9 @@ const Navbar = () => {
               <button
                 className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors"
                 onClick={() => setShowPopup(true)}
+                aria-label="Start IPTV free trial - Get best IPTV service in Canada"
               >
-                Get Started
+                IPTV Free Trial
               </button>
             </div>
 
@@ -63,6 +75,7 @@ const Navbar = () => {
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none"
                 aria-controls="mobile-menu"
                 aria-expanded={open ? 'true' : 'false'}
+                aria-label="Open IPTV navigation menu"
                 onClick={() => setOpen(!open)}
               >
                 <span className="sr-only">Open main menu</span>
@@ -95,15 +108,16 @@ const Navbar = () => {
         <div className={`${open ? 'block' : 'hidden'} md:hidden`} id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {[
-              { path: '/', label: 'Home' },
-              { path: '/blogs', label: 'Blog' },
-              { path: '/reseller', label: 'Reseller' },
-              { path: '/faqs', label: 'FAQ' },
-            ].map(({ path, label }) => (
+              { path: '/', label: 'Best IPTV Canada', ariaLabel: 'Best IPTV service in Canada 2025' },
+              { path: '/blogs', label: 'IPTV Blog', ariaLabel: 'IPTV guides and tutorials' },
+              { path: '/reseller', label: 'IPTV Reseller', ariaLabel: 'Become an IPTV reseller in Canada' },
+              { path: '/faqs', label: 'IPTV FAQ', ariaLabel: 'Frequently asked questions about IPTV service' },
+            ].map(({ path, label, ariaLabel }) => (
               <Link
                 key={path}
                 href={path}
                 onClick={() => setOpen(false)}
+                aria-label={ariaLabel}
                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                   isActive(path)
                     ? 'text-blue-400 bg-blue-900/50'
@@ -120,9 +134,10 @@ const Navbar = () => {
                 setOpen(false);
                 setShowPopup(true);
               }}
+              aria-label="Start IPTV free trial - Best IPTV service in Canada"
               className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors"
             >
-              Get Started
+              IPTV Free Trial
             </button>
           </div>
         </div>

@@ -8,102 +8,101 @@ export interface IPTVPanel {
 
 export const iptvPanels: IPTVPanel[] = [
   {
-    id: "premium-movies",
-    title: "Premium Movies Hub",
-    description: "Unlimited access to the latest blockbusters and classic films",
+    id: "canada-premium",
+    title: "Best IPTV Canada – Premium Movies & Series",
+    description: "Stream blockbuster movies and popular TV shows in Canada with our best IPTV subscription. Works perfectly on IPTV Smarters Pro, IPTV Box, and Smart IPTV apps.",
     features: [
+      "Latest movies and TV series",
+      "Supports IPTV Smarters Pro",
       "4K Ultra HD quality",
-      "New releases weekly",
-      "Award-winning cinema",
-      "Family-friendly section",
-      "Multiple language options",
-      "Download for offline viewing"
+      "Family-friendly options",
+      "Multiple language channels",
+      "Free trial available"
     ],
-    image: "/PremiumMoviesHub.jpeg" // Movie theater screen
+    image: "/PremiumMoviesHub.jpeg"
   },
   {
-    id: "hockey-central",
-    title: "Football Central",
-    description: "Complete Football coverage with live games and expert analysis",
+    id: "football-central",
+    title: "IPTV Sports Canada – Football & Live Sports",
+    description: "Enjoy complete sports coverage in Canada with our IPTV service. From Champions League to FIFA World Cup, never miss a match with your IPTV box or Smart IPTV app.",
     features: [
-      "Champions League",
+      "Champions League live",
       "English Premier League",
-      "UEFA",
-      "La Liga",
-      "FIFA World Cup",
-      "Serie A",
-      "All Major Football Leagues"
+      "UEFA & FIFA tournaments",
+      "La Liga & Serie A",
+      "All major sports channels",
+      "Works on IPTV Smarters Pro"
     ],
-    image: "/leagues.webp" // Hockey game on TV screen
+    image: "/leagues.webp"
   },
   {
-    id: "canadian-entertainment",
-    title: "Canadian Entertainment",
-    description: "Curated collection of popular Canadian content",
+    id: "canadian-content",
+    title: "IPTV Quebec & Canadian Entertainment",
+    description: "Watch Canadian channels, Quebec content, and local entertainment with our CA IPTV provider. Perfect IPTV solution for bilingual families in Canada.",
     features: [
-      "Bilingual content",
-      "Award-winning shows",
-      "Local productions",
+      "French & English channels",
+      "Canadian TV & shows",
       "Cultural documentaries",
-      "Stand-up comedy specials",
-      "Regional favorites"
+      "Regional favorites",
+      "Quebec IPTV options",
+      "Available on IPTV box"
     ],
-    image: "/entertainment.webp" // TV studio production
+    image: "/entertainment.webp"
   },
   {
-    id: "outdoor-adventures",
-    title: "Outdoor Adventures",
-    description: "Nature and outdoor programming for adventure enthusiasts",
+    id: "adventure-ip-tv",
+    title: "Smart IPTV Canada – Outdoor & Adventure",
+    description: "Explore the best outdoor and nature channels with our IPTV service in Canada. Watch wildlife, fishing, survival, and sports content on your IPTV box or Smart IPTV app.",
     features: [
-      "Wildlife documentaries",
-      "Fishing and hunting shows",
-      "National park tours",
-      "Winter sports coverage",
-      "Survival series",
-      "4K nature footage"
+      "Wildlife & nature shows",
+      "Fishing & hunting",
+      "National park documentaries",
+      "Winter sports channels",
+      "Survival & adventure series",
+      "4K IPTV streams"
     ],
-    image: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop&q=80" // Person watching outdoor show on tablet
+    image: "/adven.jpeg"
   },
   {
-    id: "family-entertainment",
-    title: "Family Entertainment",
-    description: "Kid-friendly content for the whole family",
+    id: "family-ip-tv",
+    title: "Family IPTV Subscription Canada",
+    description: "The best IPTV provider in Canada for families. Safe and fun content for kids, parental controls, and ad-free streaming with IPTV Smarters Pro and IPTV Box.",
     features: [
-      "Educational programs",
-      "Animated series",
+      "Kid-friendly content",
+      "Educational channels",
       "Parental controls",
-      "Ad-free children's section",
-      "Interactive content",
-      "Canadian-made shows"
+      "Animated series",
+      "Canadian-made shows",
+      "Ad-free children’s IPTV"
     ],
-    image: "/family.jpeg" // Family watching cartoons
+    image: "/family.jpeg"
   },
   {
-    id: "news-network",
-    title: "24/7 News Network",
-    description: "Comprehensive news coverage from trusted sources",
+    id: "news-ip-tv",
+    title: "24/7 IPTV News Canada",
+    description: "Stay updated with live Canadian and international news channels via our IPTV subscription. Works with Smart IPTV and IPTV Smarters Pro across devices.",
     features: [
       "Live news channels",
-      "Business and financial updates",
-      "Weather alerts",
-      "Political analysis",
-      "International correspondents",
-      "On-demand reports"
+      "Business & finance",
+      "Weather & alerts",
+      "Political coverage",
+      "Canadian & global news",
+      "On-demand replays"
     ],
-    image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=800&h=600&fit=crop&q=80" // News broadcast on multiple screens
+    image: "/newspaper.webp"
   },
   {
-    id: "sports-package",
-    title: "Complete Sports Package",
-    description: "All the sports action from around the world",
+    id: "sports-ip-tv",
+    title: "Complete IPTV Sports Package Canada",
+    description: "Stream all major sports with our IPTV service in Canada. Perfect for Smart IPTV, IPTV Box, and IPTV Smarters Pro users looking for the best IPTV provider.",
     features: [
-      "Live games and events",
-      "Multi-sport coverage",
-      "Expert commentary",
+      "Live games & events",
+      "Hockey, football, basketball",
+      "Real-time stats",
       "Player interviews",
       "Classic matches",
-      "Real-time statistics"
+      "HD & 4K IPTV streams"
     ],
-    image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&h=600&fit=crop&q=80" // Sports bar with multiple games on screens
+    image: "/sports.jpeg"
   }
 ];

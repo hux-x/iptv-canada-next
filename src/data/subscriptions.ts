@@ -9,6 +9,23 @@ export interface Subscription {
 }
 
 export const subscriptions: Subscription[] = [
+    {
+    id: "free-trial",
+    title: "Free 24 Hour Trial",
+    description: "Perfect for casual viewers",
+    price: "CA$0.00", // £23.59 × 1.75
+    duration: "24 Hours",
+    features: [
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ]
+  },
   {
     id: "essential",
     title: "Essential Plan",
