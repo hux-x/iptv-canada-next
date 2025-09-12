@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import TrialButton from './TrialButton';
 
 const Hero = () => {
   return (
@@ -44,10 +43,12 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
-              <TrialButton 
-                text={'Start IPTV Free Trial'} 
+              <a
+                 href="#subscriptions" 
                 className={'bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:bg-blue-700 transition'}
-              />
+              >
+                Start IPTV Free Trial
+                </a>
               <a 
                 href="#subscriptions" 
                 className="border-2 border-blue-500 text-blue-300 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-900/50 transition text-center"

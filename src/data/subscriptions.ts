@@ -18,10 +18,7 @@ export const subscriptions: Subscription[] = [
     features: [
       "15,000+ Live Channels",
       "All Premium Sports & Movies",
-      "14-Day Catch-Up TV",
       "4K Ultra HD + HDR",
-      "Unlimited Device Connections",
-      "Advanced Features & EPG",
       "Priority Customer Support",
       "Free Setup Assistance"
     ]

@@ -2,6 +2,7 @@
 import React from 'react';
 import { subscriptions } from '../data/subscriptions';
 import { useCart } from './CartContext';
+import TrialButton from './TrialButton';
 
 const Subscriptions = () => {
   const { addToCart } = useCart();
@@ -141,7 +142,7 @@ const Subscriptions = () => {
                     }`}
                     aria-label={`Add ${plan.title} IPTV subscription to cart - Best IPTV service Canada`}
                   >
-                    {plan.popular ? '🛒 Choose Best Plan' : 'Add IPTV Plan'}
+                   🛒 Add to cart
                   </button>
                 </div>
 
@@ -199,9 +200,7 @@ const Subscriptions = () => {
               <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105">
                 🚀 Start IPTV Free Trial Now
               </button>
-              <button className="border-2 border-blue-500 text-blue-300 px-8 py-3 rounded-lg font-semibold hover:bg-blue-900/50 transition-colors">
-                📞 Contact IPTV Provider
-              </button>
+              <TrialButton text='📞 Contact IPTV Provider' className={"border-2 border-blue-500 text-blue-300 px-8 py-3 rounded-lg font-semibold hover:bg-blue-900/50 transition-colors"}/>
             </div>
 
             {/* Local SEO footer */}

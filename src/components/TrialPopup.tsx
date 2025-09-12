@@ -19,7 +19,7 @@ const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose,}) => { //for 
         >
           &times;
         </button>
-        <h2 className="text-2xl font-bold mb-4 text-green-400">Let;s Get You Set Up</h2>
+        <h2 className="text-2xl font-bold mb-4 text-green-400">Let&apos;s Get You Set Up</h2>
         <p className="text-base sm:text-lg text-gray-300 mb-6">
          {
             generat_text
