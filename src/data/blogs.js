@@ -1194,7 +1194,7 @@ export const blogPosts = [
     `,
     author: "Sarah Mitchell",
     date: "2025-09-12",
-    image: "/best-iptv-apple-tv-canada.jpeg",
+    image: "/apple-iptv.jpeg",
     tags: [
       "Apple TV Canada",
       "Best IPTV Canada",

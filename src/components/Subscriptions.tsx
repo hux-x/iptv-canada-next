@@ -197,9 +197,9 @@ const Subscriptions = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105">
+              <a href='#subscriptions' className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105">
                 🚀 Start IPTV Free Trial Now
-              </button>
+              </a>
               <TrialButton text='📞 Contact IPTV Provider' className={"border-2 border-blue-500 text-blue-300 px-8 py-3 rounded-lg font-semibold hover:bg-blue-900/50 transition-colors"}/>
             </div>
 
