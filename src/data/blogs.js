@@ -1194,7 +1194,7 @@ export const blogPosts = [
     `,
     author: "Sarah Mitchell",
     date: "2025-09-12",
-    image: "/apple-iptv.jpeg",
+    image: "/apple-iptv.jpg",
     tags: [
       "Apple TV Canada",
       "Best IPTV Canada",
@@ -1318,7 +1318,7 @@ export const blogPosts = [
     `,
     author: "Sarah Mitchell",
     date: "2025-09-12",
-    image: "/what-is-iptv.jpeg",
+    image: "/what-is-iptv.png",
     tags: [
       "IPTV Canada",
       "What is IPTV",
@@ -1329,6 +1329,180 @@ export const blogPosts = [
       "IPTV legal in Canada",
       "How to get IPTV"
     ]
-  }
+  },
+  {
+  id: "best-subscription-for-iptv-smarters-pro",
+  title: "Best Subscription for IPTV Smarters Pro — Complete Guide",
+  excerpt: "Looking for the best IPTV Smarters Pro subscription? This beginner-friendly guide explains what to look for, how to set it up, recommended plans (including our optimized Canadian-ready service), and tips to get the most from IPTV Smarters Pro.",
+  content: `
+    <div class="space-y-8">
+      <!-- Promo (only at the start) -->
+      <section>
+        <div class="bg-blue-900 rounded-lg p-6 mb-6">
+          <h3 class="text-blue-300 font-semibold mb-2">📢 Get the Best IPTV Smarters Pro Subscription — Optimized for Performance</h3>
+          <p class="text-blue-100 leading-relaxed">
+            Want a smooth, reliable IPTV Smarters Pro experience? Our premium subscription includes optimized Xtream and M3U support, Canadian channels (CBC, CTV, TSN, Sportsnet), plus global entertainment and sports — all tuned for IPTV Smarters Pro on Apple TV, Firestick, Android TV, and mobile.
+            <a href="/" class="underline text-blue-400 hover:text-blue-200">Start your subscription now</a> and get instant setup instructions, 24/7 support, and free device guides.
+          </p>
+        </div>
+      </section>
+
+      <!-- Introduction -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Introduction</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          IPTV Smarters Pro is one of the most popular IPTV player apps because it supports Xtream and M3U connections, EPG (program guides), multiple users, and easy device integration. But the player is only as good as the subscription behind it — a poor provider means buffering, broken channels, and frustrated viewers.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          This guide will help you choose the <strong>best subscription for IPTV Smarters Pro</strong>, show how to set it up, and explain why our service is a top choice for reliability, Canadian channel coverage, and performance.
+        </p>
+      </section>
+
+      <!-- What Makes a Great IPTV Smarters Pro Subscription -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">What Makes a Great IPTV Smarters Pro Subscription?</h2>
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+          <ul class="space-y-4 text-gray-300">
+            <li><strong class="text-white">Xtream & M3U Support:</strong> IPTV Smarters Pro works best with Xtream API or M3U playlists — choose a provider that offers both options for flexibility.</li>
+            <li><strong class="text-white">Stable Servers & Low Latency:</strong> Look for multiple geographic servers, CDN-backed streaming, and high uptime (99%+).</li>
+            <li><strong class="text-white">EPG & Catch-Up:</strong> A proper EPG (XMLTV) and catch-up support improve the live TV experience inside IPTV Smarters Pro.</li>
+            <li><strong class="text-white">Device Compatibility:</strong> Ensure the subscription supports Firestick, Android TV, Smart TVs, iOS, and web players.</li>
+            <li><strong class="text-white">Concurrent Streams:</strong> Pick a plan with enough simultaneous connections for your household.</li>
+            <li><strong class="text-white">24/7 Support & Easy Setup:</strong> Fast, helpful customer service and one-click M3U or Xtream setup make life easier.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Why Our Subscription Is a Top Pick -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Why Our Subscription Is a Top Pick for IPTV Smarters Pro</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          We built our service specifically with IPTV Smarters Pro users in mind. That means:
+        </p>
+        <ol class="list-decimal list-inside text-gray-300 space-y-2 mb-4">
+          <li>Pre-configured Xtream and M3U access — just paste credentials into IPTV Smarters Pro and go.</li>
+          <li>Dedicated servers in North America and Europe to reduce buffering for Canadian and international viewers.</li>
+          <li>Accurate EPG for local Canadian networks (CBC, CTV, Global) and major sports channels (TSN, Sportsnet).</li>
+          <li>Flexible plans with 1–6 concurrent streams and optional premium sports add-ons.</li>
+          <li>24/7 chat support and quick replacement links if a channel temporarily fails.</li>
+        </ol>
+        <p class="text-gray-300">
+          These features mean less time troubleshooting and more time watching your favourite shows and live sports on IPTV Smarters Pro.
+        </p>
+      </section>
+
+      <!-- How to Choose the Best Plan (Checklist) -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">How to Choose the Best Plan — Quick Checklist</h2>
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+          <ul class="space-y-3 text-gray-300">
+            <li><strong>Number of devices:</strong> How many people will watch at the same time?</li>
+            <li><strong>Channel needs:</strong> Do you need local Canadian channels, PPV, or international packages?</li>
+            <li><strong>Bandwidth:</strong> Do you have at least 10–25 Mbps per HD/4K stream?</li>
+            <li><strong>Support level:</strong> Is 24/7 support important to you?</li>
+            <li><strong>Trial period:</strong> Prefer providers offering a short paid trial or money-back guarantee.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Recommended Plans (Our Service) -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Recommended Plans (Our Service)</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          We offer flexible plans tuned for IPTV Smarters Pro. Here are example options — choose the one that fits your household:
+        </p>
+        <ul class="list-disc list-inside text-gray-300 space-y-2 mb-4">
+          <li><strong>Starter (1 stream):</strong> Perfect for solo users who want basic Canadian + international channels.</li>
+          <li><strong>Standard (3 streams):</strong> Best for small families — includes full EPG and catch-up for major networks.</li>
+          <li><strong>Family (5 streams):</strong> Great for multi-device households and simultaneous streaming on different rooms.</li>
+          <li><strong>Premium Add-ons:</strong> Sports packs, UHD streams, and dedicated server zones (North America/Europe).</li>
+        </ul>
+        <p class="text-gray-300">
+          All plans include easy Xtream/M3U setup files, step-by-step guides for IPTV Smarters Pro, and 24/7 support.
+        </p>
+      </section>
+
+      <!-- How to Set Up IPTV Smarters Pro with Your Subscription -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">How to Set Up IPTV Smarters Pro (Step-by-Step)</h2>
+        <ol class="list-decimal list-inside text-gray-300 space-y-2 mb-4">
+          <li>Install <strong>IPTV Smarters Pro</strong> from the App Store, Google Play, Amazon Appstore, or sideload on your device.</li>
+          <li>Open the app and choose <em>"Load Your Playlist / Login with Xtream API"</em>.</li>
+          <li>Paste your <strong>Xtream username, password, and server URL</strong> (or M3U link) provided after purchase.</li>
+          <li>Wait for channels and EPG to load — this usually takes 10–30 seconds.</li>
+          <li>Customize favorites, enable catch-up, and test a few live channels to verify stability.</li>
+        </ol>
+        <p class="text-gray-300">
+          If you prefer, we can send a one-click import link that automatically configures IPTV Smarters Pro for you.
+        </p>
+      </section>
+
+      <!-- Speed & Quality Recommendations -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Speed & Quality Recommendations</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          For a smooth IPTV Smarters Pro experience, we recommend:
+        </p>
+        <ul class="list-disc list-inside text-gray-300 space-y-2 mb-4">
+          <li><strong>SD:</strong> 3–5 Mbps per stream</li>
+          <li><strong>HD (720p/1080p):</strong> 8–12 Mbps per stream</li>
+          <li><strong>Full HD/High Bitrate Sports:</strong> 12–20 Mbps per stream</li>
+          <li><strong>4K:</strong> 25+ Mbps per stream and a robust router (Ethernet preferred)</li>
+        </ul>
+        <p class="text-gray-300">
+          Use wired Ethernet or a strong 5 GHz Wi-Fi signal for best results.
+        </p>
+      </section>
+
+      <!-- Is IPTV Smarters Pro Legal? -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Is IPTV Smarters Pro Legal?</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          IPTV Smarters Pro is simply a media player — like VLC or Kodi — and is legal. The legality of your content depends on the subscription provider. Our service delivers legally acquired streams and respects content licensing — which keeps your streams stable and interruption-free.
+        </p>
+      </section>
+
+      <!-- Troubleshooting & Quick Tips -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Troubleshooting & Quick Tips</h2>
+        <ul class="list-disc list-inside text-gray-300 space-y-2 mb-4">
+          <li><strong>Buffering:</strong> Check your internet speed and switch to a closer server region.</li>
+          <li><strong>Missing Channels:</strong> Re-import the playlist; contact support to check channel mappings.</li>
+          <li><strong>EPG Not Showing:</strong> Make sure the EPG URL is set in IPTV Smarters Pro and wait 10–15 minutes for polling.</li>
+          <li><strong>Login Errors:</strong> Confirm Xtream credentials and that the server URL is exact (no extra spaces).</li>
+        </ul>
+      </section>
+
+      <!-- Conclusion -->
+      <section>
+        <h2 class="text-3xl font-bold text-white mb-4 border-b border-gray-600 pb-2">Conclusion</h2>
+        <p class="text-gray-300 leading-relaxed mb-4">
+          The <strong>best subscription for IPTV Smarters Pro</strong> balances stable servers, accurate EPG, device compatibility, and reliable support. Our plans were built around those principles so you can enjoy Canadian channels, sports, and global entertainment with minimal fuss.
+        </p>
+        <div class="bg-blue-900 rounded-lg p-6">
+          <h3 class="text-blue-300 font-semibold mb-2">💡 Final Tip</h3>
+          <p class="text-blue-100">
+            Try our <strong>24-Hour Free trial</strong> or low-cost starter plan — pre-configured for IPTV Smarters Pro — and see why many Canadian users switch to our service for better reliability and customer support.
+            <a href="/" class="underline text-blue-400 hover:text-blue-200">Start your IPTV Smarters Pro subscription</a> and get setup help immediately.
+          </p>
+        </div>
+      </section>
+    </div>
+  `,
+  author: "Sarah Mitchell",
+  date: "2025-09-15",
+  image: "/smarters-pro-blog.jpeg",
+  tags: [
+    "IPTV Smarters Pro",
+    "Best IPTV subscription",
+    "IPTV Smarters Pro subscription",
+    "Xtream IPTV",
+    "M3U IPTV",
+    "IPTV setup guide",
+    "IPTV Canada",
+    "IPTV Smarters Pro tutorial"
+  ]
+}
+
 ];
 export const blogsids = blogPosts.map(blog => blog.id);

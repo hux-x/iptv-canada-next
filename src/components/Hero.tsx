@@ -16,8 +16,13 @@ const Hero = () => {
               <span className="text-blue-400">Premium IPTV Service</span>
             </h1>
             <p className="text-xl text-gray-300 mb-6 max-w-2xl leading-relaxed">
-              Experience Canada&apos;s #1 IPTV service with <strong className="text-blue-400">IPTV Smarters Pro compatibility</strong>, 
-              12,000+ live channels, and 4K streaming quality. Perfect for any IPTV box or smart TV.
+             Experience Canada’s #1 IPTV service with full compatibility for popular players like 
+<strong className="text-blue-400">IPTV Smarters Pro</strong>, 
+<strong className="text-blue-400">TiviMate</strong>, 
+<strong className="text-blue-400">XCIPTV</strong>, and 
+<strong className="text-blue-400">Smart IPTV (SIPTV)</strong> and all major IPTV applications.
+Enjoy 12,000+ live TV channels, on-demand movies, and 4K streaming quality — perfect for Firestick, Android TV boxes, Smart TVs, and more.
+
             </p>
             
             {/* Key Features for SEO */}

@@ -66,7 +66,7 @@ const Subscriptions = () => {
                   className="text-2xl font-bold text-white mb-2"
                   itemProp="name"
                 >
-                  {plan.title} - IPTV Canada
+                  {plan.title} 
                 </h3>
                 <p 
                   className="text-gray-300 mb-6"
@@ -128,7 +128,7 @@ const Subscriptions = () => {
                     <strong className="text-blue-400">Available in:</strong>
                   </p>
                   <p className="text-xs text-gray-500">
-                    Ontario IPTV • Quebec IPTV • BC IPTV • Alberta IPTV • All Canadian Provinces
+                    Ontario • Quebec • BC • Alberta • All Canadian Provinces • Now serving international customers too
                   </p>
                 </div>
 
