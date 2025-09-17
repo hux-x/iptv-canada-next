@@ -5,7 +5,7 @@ const SportsPage = () => {
     <div className="min-h-screen bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-blue-400 mb-4">Sports Experience</h1>
+          <h2 className="text-4xl font-bold text-blue-400 mb-4">Sports Experience</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Comprehensive sports coverage for every fan across Canada
           </p>

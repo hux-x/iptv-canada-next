@@ -8,7 +8,7 @@ const NewsPage = () => {
     <div className="min-h-screen bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-blue-400 mb-4">News Network</h1>
+          <h2 className="text-4xl font-bold text-blue-400 mb-4">News Network</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Stay informed with 24/7 news coverage from trusted global sources
           </p>
