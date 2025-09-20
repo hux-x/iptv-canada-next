@@ -16,7 +16,7 @@ const SportsPage = () => {
             <div className="md:flex">
                 <div className="md:w-2/3">
                 <Image
-                  src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e"
+                  src="/stadium.webp"
                   alt="Live Sports"
                   className="w-full h-full min-h-64 object-cover"
                   width={800}
