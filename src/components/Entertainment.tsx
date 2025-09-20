@@ -173,26 +173,37 @@ const EntertainmentPage = () => {
           </div>
 
           {/* CTA section */}
-          <div className="mt-8 text-center">
-            <h4 className="text-xl font-semibold text-white mb-4">
-              Ready to Experience Canada&apos;s Best IPTV Entertainment?
-            </h4>
-            <p className="text-gray-300 mb-6">
-              Start your <strong className="text-blue-400">IPTV free trial</strong> today and discover why thousands 
-              of Canadians choose our IPTV provider for their entertainment needs.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                🚀 Start IPTV Free Trial
-              </button>
-              <a 
-                href="#subscriptions" 
-                className="border-2 border-blue-500 text-blue-300 px-6 py-3 rounded-lg font-semibold hover:bg-blue-900/50 transition-colors"
-              >
-                📋 View IPTV Plans
-              </a>
-            </div>
-          </div>
+         {/* CTA section */}
+<div className="mt-8 text-center">
+  <h4 className="text-2xl font-bold text-white mb-4">
+    Ready to Unlock Canada’s #1 IPTV Entertainment?
+  </h4>
+  <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
+    Get instant access to <strong className="text-blue-400">25,000+ movies, TV shows, and live channels </strong> 
+    with crystal-clear 4K quality. Start your <a href='#subscriptions' className="text-green-400 font-semibold">FREE IPTV trial</a> today – 
+    no credit card required.
+  </p>
+  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+    <a href='#subscriptions' className="bg-gradient-to-r from-green-600 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-700 hover:to-blue-700 transition-all transform hover:scale-105">
+      🚀 Start Free IPTV Trial Now
+    </a>
+    <a 
+      href="#subscriptions" 
+      className="border-2 border-blue-500 text-blue-300 px-8 py-3 rounded-lg font-semibold hover:bg-blue-900/50 transition-colors"
+    >
+      📋 View Best IPTV Plans
+    </a>
+  </div>
+
+  {/* Trust badges */}
+  <div className="mt-6 flex flex-wrap justify-center gap-6 text-gray-400 text-sm">
+    <span>✓ Trusted by 50,000+ Canadians</span>
+    <span>✓ 24/7 IPTV Support</span>
+    <span>✓ 4.9★ Customer Rating</span>
+    <span>✓ Quebec IPTV Included</span>
+  </div>
+</div>
+
         </article>
 
         {/* Local SEO section */}

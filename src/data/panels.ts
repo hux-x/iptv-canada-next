@@ -9,99 +9,99 @@ export interface IPTVPanel {
 export const iptvPanels: IPTVPanel[] = [
   {
     id: "canada-premium",
-    title: "Best IPTV Canada – Premium Movies & Series",
-    description: "Stream blockbuster movies and popular TV shows in Canada with our best IPTV subscription. Works perfectly on IPTV Smarters Pro, IPTV Box, and Smart IPTV apps.",
+    title: "Best IPTV Canada – Premium Subscription for Movies & Series",
+    description: "Enjoy the top IPTV Canada experience with blockbuster movies, popular TV shows, and exclusive streaming content. Our affordable IPTV subscription works with IPTV Smarters Pro, IPTV Box Canada, and Smart IPTV apps – making it the best IPTV CA option for 2025.",
     features: [
-      "Latest movies and TV series",
-      "Supports IPTV Smarters Pro",
-      "4K Ultra HD quality",
-      "Family-friendly options",
-      "Multiple language channels",
-      "Free trial available"
+      "Latest movies and TV series in Canada",
+      "Supports IPTV Smarters Pro & Smart IPTV",
+      "4K Ultra HD IPTV streaming",
+      "Family-friendly and bilingual options",
+      "Multiple language channels (EN/FR)",
+      "Free trial with every IPTV subscription"
     ],
     image: "/PremiumMoviesHub.jpeg"
   },
   {
     id: "football-central",
-    title: "IPTV Sports Canada – Football & Live Sports",
-    description: "Enjoy complete sports coverage in Canada with our IPTV service. From Champions League to FIFA World Cup, never miss a match with your IPTV box or Smart IPTV app.",
+    title: "IPTV Sports Canada – Live Football & Premium Sports Channels",
+    description: "Stream the best IPTV sports Canada has to offer – from Champions League and FIFA World Cup to hockey, basketball, and more. Our IPTV 1-year subscription ensures non-stop access on IPTV Box Canada, IPTV Smarters Pro, and Smart IPTV apps.",
     features: [
-      "Champions League live",
-      "English Premier League",
-      "UEFA & FIFA tournaments",
-      "La Liga & Serie A",
-      "All major sports channels",
-      "Works on IPTV Smarters Pro"
+      "Champions League & FIFA World Cup live",
+      "English Premier League & La Liga",
+      "UEFA & Serie A tournaments",
+      "All major sports IPTV channels",
+      "Reliable IPTV CA coverage in HD & 4K",
+      "Works on IPTV Smarters Pro & Box Canada"
     ],
     image: "/leagues.webp"
   },
   {
     id: "canadian-content",
-    title: "IPTV Quebec & Canadian Entertainment",
-    description: "Watch Canadian channels, Quebec content, and local entertainment with our CA IPTV provider. Perfect IPTV solution for bilingual families in Canada.",
+    title: "Canada IPTV – Quebec & Local Entertainment",
+    description: "Get exclusive Quebec channels, Canadian shows, and regional content with our IPTV subscription Canada. The best IPTV provider in Canada for bilingual families, offering English and French IPTV CA content on IPTV Box and Smart IPTV apps.",
     features: [
-      "French & English channels",
-      "Canadian TV & shows",
-      "Cultural documentaries",
-      "Regional favorites",
-      "Quebec IPTV options",
-      "Available on IPTV box"
+      "French & English IPTV channels",
+      "Canadian TV & entertainment",
+      "Cultural documentaries & series",
+      "Regional IPTV favorites",
+      "Quebec IPTV streaming options",
+      "Runs smoothly on IPTV Box Canada"
     ],
     image: "/entertainment.webp"
   },
   {
     id: "adventure-ip-tv",
-    title: "Smart IPTV Canada – Outdoor & Adventure",
-    description: "Explore the best outdoor and nature channels with our IPTV service in Canada. Watch wildlife, fishing, survival, and sports content on your IPTV box or Smart IPTV app.",
+    title: "Smart IPTV Canada – Adventure, Nature & Outdoors",
+    description: "Explore wildlife, adventure, and outdoor IPTV streaming in Canada with our Smart IPTV and IPTV Box service. From fishing and survival shows to winter sports, our IPTV subscription delivers premium content in HD and 4K.",
     features: [
-      "Wildlife & nature shows",
-      "Fishing & hunting",
+      "Wildlife & nature IPTV streaming",
+      "Fishing, hunting & survival content",
       "National park documentaries",
-      "Winter sports channels",
-      "Survival & adventure series",
-      "4K IPTV streams"
+      "Winter sports IPTV channels",
+      "Adventure & outdoor IPTV series",
+      "4K IPTV streaming in Canada"
     ],
     image: "/adven.jpeg"
   },
   {
     id: "family-ip-tv",
-    title: "Family IPTV Subscription Canada",
-    description: "The best IPTV provider in Canada for families. Safe and fun content for kids, parental controls, and ad-free streaming with IPTV Smarters Pro and IPTV Box.",
+    title: "Family IPTV Subscription Canada – Safe & Fun Entertainment",
+    description: "Choose the best IPTV Canada service for families. With parental controls, kid-friendly content, and ad-free streaming, our IPTV CA subscription is perfect for households using IPTV Smarters Pro, IPTV Box Canada, and Smart IPTV.",
     features: [
-      "Kid-friendly content",
-      "Educational channels",
-      "Parental controls",
-      "Animated series",
-      "Canadian-made shows",
-      "Ad-free children’s IPTV"
+      "Safe, kid-friendly IPTV content",
+      "Educational & animated shows",
+      "Full parental control options",
+      "Canadian-made IPTV channels",
+      "Ad-free IPTV streaming for kids",
+      "Affordable IPTV subscription plans"
     ],
     image: "/family.jpeg"
   },
   {
     id: "news-ip-tv",
-    title: "24/7 IPTV News Canada",
-    description: "Stay updated with live Canadian and international news channels via our IPTV subscription. Works with Smart IPTV and IPTV Smarters Pro across devices.",
+    title: "24/7 IPTV News Canada – Live & On-Demand",
+    description: "Stay informed with Canada IPTV news coverage, including live business, politics, finance, and weather updates. Our IPTV subscription Canada works on IPTV Smarters Pro, Smart IPTV, and IPTV Box Canada for streaming anytime, anywhere.",
     features: [
-      "Live news channels",
-      "Business & finance",
-      "Weather & alerts",
-      "Political coverage",
-      "Canadian & global news",
-      "On-demand replays"
+      "Live Canadian IPTV news channels",
+      "Global & business coverage",
+      "Weather, alerts & updates",
+      "Political IPTV coverage",
+      "On-demand IPTV news replays",
+      "Works across all IPTV apps & boxes"
     ],
     image: "/newspaper.webp"
   },
   {
     id: "sports-ip-tv",
-    title: "Complete IPTV Sports Package Canada",
-    description: "Stream all major sports with our IPTV service in Canada. Perfect for Smart IPTV, IPTV Box, and IPTV Smarters Pro users looking for the best IPTV provider.",
+    title: "Complete IPTV Sports Package Canada – Best IPTV Subscription",
+    description: "Get unlimited access to hockey, football, basketball, and more with our IPTV sports subscription Canada. Compatible with IPTV Box, IPTV Smarters Pro, and Smart IPTV apps, this is the best IPTV Canada plan for sports lovers.",
     features: [
-      "Live games & events",
-      "Hockey, football, basketball",
-      "Real-time stats",
-      "Player interviews",
-      "Classic matches",
-      "HD & 4K IPTV streams"
+      "Live IPTV games & sports events",
+      "Hockey, football & basketball IPTV",
+      "Real-time sports IPTV stats",
+      "Player interviews & replays",
+      "Classic IPTV matches in HD",
+      "4K IPTV streaming Canada"
     ],
     image: "/sports.jpeg"
   }
