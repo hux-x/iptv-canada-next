@@ -22,7 +22,16 @@ export const metadata = {
     'iptv service 2025',
     'premium iptv canada 2025',
     'reliable iptv service',
-    'best iptv provider canada'
+    'best iptv provider canada',
+    'iptv free trial',
+    'iptv vancouver',
+    'iptv iptv 1 month subscription',
+    'iptv one year subscription',
+    'iptv providers montreal',
+    'iptv ca',
+    'iptv box canada',
+    'iptv streaming',
+    'iptv services'
   ],
   authors: [{ name: 'Canadian IPTV Services' }],
   metadataBase: new URL('https://canadianiptvservices.ca'),
