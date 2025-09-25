@@ -13,8 +13,8 @@ const CheckoutModal = ({ isOpen, onClose, onConfirm, cartItems, totalPrice }) =>
       const numericPrice = parseFloat(item.price.replace(/[^\d.-]/g, '')) || 0;
       const currencySymbol = item.price.replace(/[0-9.,\s]/g, '') || '€';
 
-      message += `${index + 1}. ${item.name}\n`;
-      message += `   - Price: ${item.price}/${item.period}\n`;
+      message += `${index + 1}. ${item.title}\n`;
+      message += `   - Price: ${item.price}/${item.duration}\n`;
       message += `   - Quantity: ${item.quantity}\n`;
       message += `   - Subtotal: ${currencySymbol}${(numericPrice * item.quantity).toFixed(2)}\n\n`;
     });

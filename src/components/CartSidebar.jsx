@@ -79,7 +79,7 @@ const CartSidebar = () => {
                       <h3 className="font-semibold text-gray-900">{item.name}</h3>
                       <button
                         onClick={() => removeFromCart(item.id)}
-                        className="text-gray-400 hover:text-red-500"
+                        className="text-gray-400 hover:text-red-500" 
                       >
                         <X className="h-4 w-4" />
                       </button>
@@ -103,7 +103,7 @@ const CartSidebar = () => {
                       </div>
                       <div className="text-right">
                         <p className="font-semibold text-black">
-                          {item.price}/{item.period}
+                          {item.price}/{item.duration}
                         </p>
                         <p className="text-sm text-gray-600">
                           Subtotal: {currencySymbol}
