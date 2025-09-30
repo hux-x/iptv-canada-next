@@ -1,10 +1,10 @@
 import FloatingWhatsAppButton from '@/src/components/FloatingWhatsAppButton';
-import Home from '../src/sections/Index'
-import React from 'react'
+import Home from '../src/sections/Index';
+import React from 'react';
 
 export const metadata = {
   title: 'Best IPTV Canada 2025 - Premium IPTV Service Provider | IPTV Smarters Pro Compatible',
-  description: 'Canada\'s #1 IPTV service with 12,000+ channels, IPTV Smarters Pro support, free trial, and 4K streaming. Best IPTV subscription in Quebec, Ontario & all provinces. Compatible with any IPTV box.',
+  description: "Canada's #1 IPTV service with 12,000+ channels, IPTV Smarters Pro support, free trial, and 4K streaming. Best IPTV subscription in Quebec, Ontario & all provinces. Compatible with any IPTV box.",
   keywords: [
     'iptv canada',
     'best iptv',
@@ -23,15 +23,17 @@ export const metadata = {
     'premium iptv canada 2025',
     'reliable iptv service',
     'best iptv provider canada',
-    'iptv free trial',
     'iptv vancouver',
-    'iptv iptv 1 month subscription',
+    'iptv 1 month subscription',
     'iptv one year subscription',
     'iptv providers montreal',
     'iptv ca',
     'iptv box canada',
     'iptv streaming',
-    'iptv services'
+    'iptv services',
+    'canadian iptv service',
+    'global iptv provider',
+    'worldwide iptv streaming'
   ],
   authors: [{ name: 'Canadian IPTV Services' }],
   metadataBase: new URL('https://canadianiptvservices.ca'),
@@ -41,8 +43,8 @@ export const metadata = {
   openGraph: {
     type: 'website',
     url: 'https://canadianiptvservices.ca/',
-    title: 'Best IPTV Canada 2024 - Premium IPTV Service Provider',
-    description: 'Canada\'s premier IPTV service with 12,000+ channels, IPTV Smarters Pro compatibility, free trial, and 4K streaming across all provinces.',
+    title: 'Best IPTV Canada 2025 - Premium IPTV Service Provider',
+    description: "Canada's premier IPTV service with 12,000+ channels, IPTV Smarters Pro compatibility, free trial, and 4K streaming across all provinces and worldwide.",
     images: [
       {
         url: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1200&h=630&fit=crop',
@@ -52,16 +54,16 @@ export const metadata = {
       },
     ],
     locale: 'en_CA',
-    siteName: 'Canadian IPTV Services'
+    siteName: 'Canadian IPTV Services',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best IPTV Canada 2024 - Premium IPTV Service Provider',
-    description: 'Canada\'s premier IPTV service with 12,000+ channels, IPTV Smarters Pro compatibility, and free trial across all provinces.',
+    title: 'Best IPTV Canada 2025 - Premium IPTV Service Provider',
+    description: "Canada's premier IPTV service with 12,000+ channels, IPTV Smarters Pro compatibility, and free trial across all provinces and worldwide.",
     images: [
       'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1200&h=630&fit=crop',
     ],
-    site: '@canadianiptvservices', 
+    site: '@canadianiptvservices',
   },
   robots: {
     index: true,
@@ -75,8 +77,8 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'your-google-site-verification-code', // Add your actual verification code
-  }
+    google: 'your-google-site-verification-code',
+  },
 };
 
 export default function page() {
@@ -101,49 +103,50 @@ export default function page() {
           "telephone": "+92-347-123-4567",
           "contactType": "customer service",
           "availableLanguage": ["English", "French"],
-          "areaServed": ["CA"]
+          "areaServed": ["CA", "Worldwide"]
         },
-        "areaServed": {
-          "@type": "Country",
-          "name": "Canada"
-        },
+        "areaServed": [
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Place", "name": "Worldwide" }
+        ],
         "serviceType": ["IPTV Service", "Streaming Service", "Digital Television"],
-        "foundingLocation": {
-          "@type": "Country",
-          "name": "Canada"
-        }
+        "foundingLocation": { "@type": "Country", "name": "Canada" }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://canadianiptvservices.ca/#localbusiness",
+        "name": "Canadian IPTV Services",
+        "image": "https://canadianiptvservices.ca/logo.png",
+        "address": { "@type": "PostalAddress", "addressCountry": "CA" },
+        "priceRange": "$$",
+        "telephone": "+92-347-123-4567",
+        "areaServed": [
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Place", "name": "Worldwide" }
+        ]
       },
       {
         "@type": "WebSite",
         "@id": "https://canadianiptvservices.ca/#website",
         "url": "https://canadianiptvservices.ca/",
         "name": "Canadian IPTV Services",
-        "description": "Best IPTV service in Canada with free trial",
-        "publisher": {
-          "@id": "https://canadianiptvservices.ca/#organization"
-        },
-        "potentialAction": [
-          {
-            "@type": "SearchAction",
-            "target": {
-              "@type": "EntryPoint",
-              "urlTemplate": "https://canadianiptvservices.ca/?s={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-          }
-        ]
+        "description": "Best IPTV service in Canada with free trial and global availability",
+        "publisher": { "@id": "https://canadianiptvservices.ca/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://canadianiptvservices.ca/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "Service",
         "name": "IPTV Canada Premium Service",
-        "description": "Premium IPTV service for Canada with 12,000+ channels, 4K streaming, IPTV Smarters Pro compatibility, and free trial",
-        "provider": {
-          "@id": "https://canadianiptvservices.ca/#organization"
-        },
-        "areaServed": {
-          "@type": "Country",
-          "name": "Canada"
-        },
+        "description": "Premium IPTV service for Canada and worldwide with 12,000+ channels, 4K streaming, IPTV Smarters Pro compatibility, and free trial",
+        "provider": { "@id": "https://canadianiptvservices.ca/#organization" },
+        "areaServed": [
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Place", "name": "Worldwide" }
+        ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "IPTV Subscription Plans",
@@ -153,13 +156,13 @@ export default function page() {
               "itemOffered": {
                 "@type": "Service",
                 "name": "IPTV Free Trial",
-                "description": "Free IPTV trial for Canadian customers"
+                "description": "Free IPTV trial for Canadian and worldwide customers"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
-                "@type": "Service", 
+                "@type": "Service",
                 "name": "IPTV Smarters Pro Compatible Service",
                 "description": "IPTV service compatible with IPTV Smarters Pro application"
               }
@@ -168,27 +171,17 @@ export default function page() {
         },
         "audience": {
           "@type": "Audience",
-          "geographicArea": {
-            "@type": "Country",
-            "name": "Canada"
-          }
+          "geographicArea": [
+            { "@type": "Country", "name": "Canada" },
+            { "@type": "Place", "name": "Worldwide" }
+          ]
         }
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://canadianiptvservices.ca/"
-          },
-          {
-            "@type": "ListItem", 
-            "position": 2,
-            "name": "Best IPTV Canada",
-            "item": "https://canadianiptvservices.ca/#iptv-canada"
-          }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://canadianiptvservices.ca/" },
+          { "@type": "ListItem", "position": 2, "name": "Best IPTV Canada", "item": "https://canadianiptvservices.ca/#iptv-canada" }
         ]
       }
     ]
@@ -196,20 +189,17 @@ export default function page() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd)
-        }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       
-      {/* Additional meta tags for better SEO */}
+      {/* Fallback for no-JS users */}
       <noscript>
-        <p>Best IPTV service in Canada requires JavaScript. Please enable JavaScript for the best IPTV streaming experience.</p>
+        <p>
+          Best IPTV service in Canada and worldwide requires JavaScript. Please enable JavaScript for the best IPTV streaming experience.
+        </p>
       </noscript>
-      
-      <Home/>
-      <FloatingWhatsAppButton/>
+
+      <Home />
+      <FloatingWhatsAppButton />
     </>
-  )
+  );
 }

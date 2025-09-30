@@ -7,73 +7,72 @@ export interface Subscription {
   features: string[];
   popular?: boolean;
 }
-
 export const subscriptions: Subscription[] = [
-    {
+  {
     id: "free-trial",
     title: "Free 24 Hour Trial",
-    description: "Perfect for casual viewers",
-    price: "CA$0.00", // £23.59 × 1.75
+    description: "Best way to test IPTV Canada service with live channels and movies",
+    price: "CA$0.00",
     duration: "24 Hours",
     features: [
-      "15,000+ Live Channels",
+      "15,000+ Live IPTV Channels",
       "All Premium Sports & Movies",
-      "4K Ultra HD + HDR",
-      "Priority Customer Support",
-      "Free Setup Assistance"
+      "4K Ultra HD + HDR IPTV Streaming",
+      "Priority IPTV Customer Support",
+      "Free IPTV Setup Assistance"
     ]
   },
   {
     id: "essential",
-    title: "Essential Plan",
-    description: "Perfect for casual viewers",
-    price: "CA$29.99", // £23.59 × 1.75
+    title: "Essential IPTV Plan",
+    description: "Affordable IPTV subscription CA for casual viewers",
+    price: "CA$29.99",
     duration: "3 months",
     features: [
-      "15,000+ Live Channels",
+      "15,000+ Live IPTV Channels",
       "All Premium Sports & Movies",
-      "14-Day Catch-Up TV",
-      "4K Ultra HD + HDR",
-      "Advanced Features & EPG",
-      "Priority Customer Support",
+      "14-Day IPTV Catch-Up TV",
+      "4K Ultra HD + HDR IPTV Service",
+      "EPG & Advanced IPTV Features",
+      "Priority IPTV Support",
       "Free Setup Assistance"
     ]
   },
   {
     id: "premium",
-    title: "Premium Plan",
-    description: "Most popular choice for families",
-    price: "CA$49.99", // £41.29 × 1.75
+    title: "Premium IPTV Plan",
+    description: "Most popular IPTV Canada plan for families",
+    price: "CA$49.99",
     duration: "6 months",
     features: [
-      "15,000+ Live Channels",
+      "15,000+ Live IPTV Channels",
       "All Premium Sports & Movies",
-      "14-Day Catch-Up TV",
-      "4K Ultra HD + HDR",
-      "Advanced Features & EPG",
-      "Priority Customer Support",
-      "Free Setup Assistance"
+      "14-Day Catch-Up IPTV Service",
+      "4K Ultra HD + HDR IPTV Streaming",
+      "Advanced IPTV Features & EPG",
+      "24/7 IPTV Support",
+      "Free IPTV Setup"
     ]
   },
   {
     id: "ultimate",
-    title: "Ultimate Plan",
-    description: "Complete entertainment solution",
-    price: "CA$89.00", // £70.79 × 1.75
+    title: "Ultimate IPTV Plan",
+    description: "Complete IPTV Canada subscription for unlimited entertainment",
+    price: "CA$89.00",
     duration: "12 months",
     features: [
-      "15,000+ Live Channels",
+      "15,000+ Live IPTV Channels",
       "All Premium Sports & Movies",
       "14-Day Catch-Up TV",
-      "4K Ultra HD + HDR",
-
-      "Advanced Features & EPG",
-      "Priority Customer Support",
-      "Free Setup Assistance"
+      "4K Ultra HD + HDR IPTV Service",
+      "Advanced IPTV Features + EPG",
+      "Priority IPTV Customer Support",
+      "Free IPTV Setup Assistance"
     ],
     popular: true
   }
 ];
+
 
 export const resellerPlans: Subscription[] = [
   {
