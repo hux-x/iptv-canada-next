@@ -194,7 +194,7 @@ export default function page() {
       {/* Fallback for no-JS users */}
       <noscript>
         <p>
-          Best IPTV service in Canada and worldwide requires JavaScript. Please enable JavaScript for the best IPTV streaming experience.
+          This website requires JavaScript. Please enable JavaScript for the best IPTV streaming experience.
         </p>
       </noscript>
 

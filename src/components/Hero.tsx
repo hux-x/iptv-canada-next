@@ -12,7 +12,7 @@ const Hero = () => {
           {/* Text Content */}
           <div>
             <h1 className="text-4xl lg:text-6xl font-extrabold text-white mb-6 leading-tight">
-              Best IPTV Canada 2025 –{' '}
+              Best IPTV Subscription Provider in Canada –{' '} The most Advance IPTV Subscription
               <span className="text-blue-400">Trusted, Reliable & Affordable IPTV Service</span>
             </h1>
             <p className="text-xl text-gray-300 mb-6 max-w-2xl leading-relaxed">
