@@ -1,54 +1,49 @@
+// app/iptv-smarters-pro-subscription-provider/page.js
 import FloatingWhatsAppButton from '@/src/components/FloatingWhatsAppButton';
 import React from 'react'
-import Panel from '../../src/sections/Panel';
+import IPTVSmartersPro from '@/src/Panel-pages/IPTVSmartersPro/IPTVSmartersPro';
 
 export const metadata = {
-  title: 'Best IPTV Canada 2025 - Premium IPTV Service Provider | IPTV Smarters Pro Compatible',
-  description: 'Canada\'s #1 IPTV service with 12,000+ channels, IPTV Smarters Pro support, free trial, and 4K streaming. Best IPTV subscription in Quebec, Ontario & all provinces. Compatible with any IPTV box.',
+  title: 'IPTV Smarters Pro Subscription Provider 2025 - Best IPTV Service Worldwide',
+  description: 'Get the best IPTV Smarters Pro Subscription with 27,000+ live channels & 137,000+ movies/series in 4K/8K. Free trial, instant activation, VPN included. Compatible with Smart TVs, Firestick, iOS, Android & more.',
   keywords: [
-    'iptv canada',
-    'best iptv',
     'iptv smarters pro',
-    'iptv box',
-    'iptv from canada',
-    'iptv quebec',
-    'iptv free trial',
-    'iptv subscription',
-    'ca iptv',
-    'iptv provider',
-    'iptv service',
-    'smart iptv',
-    'best iptv canada 2025',
-    'iptv service 2025',
-    'premium iptv canada 2025',
-    'reliable iptv service',
-    'best iptv provider canada',
-    'iptv free trial',
-    'iptv vancouver',
-    'iptv iptv 1 month subscription',
-    'iptv one year subscription',
-    'iptv providers montreal',
-    'iptv ca',
-    'iptv box canada',
-    'iptv streaming',
-    'iptv services'
+    'iptv smarters pro subscription',
+    'iptv smarters pro app',
+    'iptv smarters pro provider',
+    'iptv smarters pro player',
+    'iptv smarters subscription',
+    'iptv smarters pro free trial',
+    'iptv smarters pro canada',
+    'iptv smarters pro usa',
+    'best iptv 2025',
+    'premium iptv service',
+    'iptv streaming provider',
+    'iptv subscription worldwide',
+    'iptv smarters pro android',
+    'iptv smarters pro ios',
+    'iptv smarters pro firestick',
+    'iptv smarters pro windows',
+    'iptv smarters pro mac',
+    'iptv smarters pro roku',
+    'reliable iptv provider'
   ],
   authors: [{ name: 'Canadian IPTV Services' }],
   metadataBase: new URL('https://canadianiptvservices.ca'),
   alternates: {
-    canonical: '/',
+    canonical: '/iptv-smarters-pro-subscription-provider',
   },
   openGraph: {
     type: 'website',
-    url: 'https://canadianiptvservices.ca/',
-    title: 'Best IPTV Canada 2024 - Premium IPTV Service Provider',
-    description: 'Canada\'s premier IPTV service with 12,000+ channels, IPTV Smarters Pro compatibility, free trial, and 4K streaming across all provinces.',
+    url: 'https://canadianiptvservices.ca/iptv-smarters-pro-subscription-provider',
+    title: 'IPTV Smarters Pro Subscription Provider 2025 - Premium IPTV Service',
+    description: 'Official IPTV Smarters Pro Subscription with 27,000+ channels & 137,000+ movies/series. 4K/8K, sports, PPV, Netflix-like experience. Free trial included.',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1200&h=630&fit=crop',
         width: 1200,
         height: 630,
-        alt: 'Best IPTV Service Canada - IPTV Smarters Pro Compatible',
+        alt: 'IPTV Smarters Pro Subscription Provider 2025',
       },
     ],
     locale: 'en_CA',
@@ -56,8 +51,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best IPTV Canada 2024 - Premium IPTV Service Provider',
-    description: 'Canada\'s premier IPTV service with 12,000+ channels, IPTV Smarters Pro compatibility, and free trial across all provinces.',
+    title: 'IPTV Smarters Pro Subscription Provider 2025 - Premium IPTV Worldwide',
+    description: 'Get IPTV Smarters Pro Subscription with 4K/8K, 27,000+ channels, 137,000+ movies & daily updates. Free trial available.',
     images: [
       'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1200&h=630&fit=crop',
     ],
@@ -75,7 +70,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'your-google-site-verification-code', // Add your actual verification code
+    google: 'your-google-site-verification-code',
   }
 };
 
@@ -87,7 +82,7 @@ export default function page() {
         "@type": "Organization",
         "@id": "https://canadianiptvservices.ca/#organization",
         "name": "Canadian IPTV Services",
-        "alternateName": "Best IPTV Canada",
+        "alternateName": "IPTV Smarters Pro Provider",
         "url": "https://canadianiptvservices.ca/",
         "logo": {
           "@type": "ImageObject",
@@ -95,17 +90,13 @@ export default function page() {
           "width": 200,
           "height": 60
         },
-        "description": "Canada's premier IPTV service provider offering 12,000+ channels with IPTV Smarters Pro compatibility",
+        "description": "Official IPTV Smarters Pro Subscription Provider with premium IPTV plans, 27,000+ channels, 4K/8K streaming and free trial.",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+92-347-123-4567",
           "contactType": "customer service",
           "availableLanguage": ["English", "French"],
-          "areaServed": ["CA"]
-        },
-        "areaServed": {
-          "@type": "Country",
-          "name": "Canada"
+          "areaServed": ["CA", "US", "Worldwide"]
         },
         "serviceType": ["IPTV Service", "Streaming Service", "Digital Television"],
         "foundingLocation": {
@@ -118,7 +109,7 @@ export default function page() {
         "@id": "https://canadianiptvservices.ca/#website",
         "url": "https://canadianiptvservices.ca/",
         "name": "Canadian IPTV Services",
-        "description": "Best IPTV service in Canada with free trial",
+        "description": "Official IPTV Smarters Pro subscription provider with premium IPTV worldwide.",
         "publisher": {
           "@id": "https://canadianiptvservices.ca/#organization"
         },
@@ -135,33 +126,33 @@ export default function page() {
       },
       {
         "@type": "Service",
-        "name": "IPTV Canada Premium Service",
-        "description": "Premium IPTV service for Canada with 12,000+ channels, 4K streaming, IPTV Smarters Pro compatibility, and free trial",
+        "name": "IPTV Smarters Pro Subscription",
+        "description": "Premium IPTV service with IPTV Smarters Pro app support, 27,000+ live channels, 137,000+ VOD, 4K/8K, VPN & instant activation.",
         "provider": {
           "@id": "https://canadianiptvservices.ca/#organization"
         },
         "areaServed": {
           "@type": "Country",
-          "name": "Canada"
+          "name": "Worldwide"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "IPTV Subscription Plans",
+          "name": "IPTV Smarters Pro Subscription Plans",
           "itemListElement": [
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "IPTV Free Trial",
-                "description": "Free IPTV trial for Canadian customers"
+                "name": "IPTV Smarters Pro Free Trial",
+                "description": "Free IPTV trial with IPTV Smarters Pro compatibility"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service", 
-                "name": "IPTV Smarters Pro Compatible Service",
-                "description": "IPTV service compatible with IPTV Smarters Pro application"
+                "name": "Premium IPTV Smarters Pro Plan",
+                "description": "12-month IPTV subscription with 27,000+ channels, sports, PPV & movies"
               }
             }
           ]
@@ -170,7 +161,7 @@ export default function page() {
           "@type": "Audience",
           "geographicArea": {
             "@type": "Country",
-            "name": "Canada"
+            "name": "Worldwide"
           }
         }
       },
@@ -186,8 +177,8 @@ export default function page() {
           {
             "@type": "ListItem", 
             "position": 2,
-            "name": "Best IPTV Canada",
-            "item": "https://canadianiptvservices.ca/#iptv-canada"
+            "name": "IPTV Smarters Pro Subscription Provider",
+            "item": "https://canadianiptvservices.ca/iptv-smarters-pro-subscription-provider"
           }
         ]
       }
@@ -203,12 +194,11 @@ export default function page() {
         }}
       />
       
-      {/* Additional meta tags for better SEO */}
       <noscript>
-        <p>Best IPTV service in Canada requires JavaScript. Please enable JavaScript for the best IPTV streaming experience.</p>
+        <p>For the best IPTV Smarters Pro experience, please enable JavaScript.</p>
       </noscript>
       
-      <Panel/>
+      <IPTVSmartersPro/>
       <FloatingWhatsAppButton/>
     </>
   )

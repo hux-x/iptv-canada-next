@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -13,25 +12,26 @@ const Hero = () => {
           {/* Text Content */}
           <div>
             <h1 className="text-4xl lg:text-6xl font-extrabold text-white mb-6 leading-tight">
-              Best IPTV Subscription Provider in Canada –{' '}
-              <span className="text-blue-400"> The most Advance IPTV Subscription</span>
+              Official <span className="text-blue-400">IPTV Smarters Pro Subscription</span>
             </h1>
             <p className="text-xl text-gray-300 mb-6 max-w-2xl leading-relaxed">
-              Unlock the <strong>best IPTV subscription in Canada</strong> with full support for 
-              <Link href='/iptv-smarters-pro-subscription-provider' className="text-blue-400"> IPTV Smarters Pro</Link>, 
-              <strong className="text-blue-400"> TiviMate</strong>, 
-              <strong className="text-blue-400"> XCIPTV</strong>, and 
-              <strong className="text-blue-400"> Smart IPTV (SIPTV)</strong>.  
-              Enjoy instant access to <strong>12,000+ live TV channels</strong>, 
-              <strong> 25,000+ movies and series on-demand</strong>, and true <strong>4K Ultra HD IPTV streaming</strong> — optimized for 
-              Firestick, Android TV boxes, Roku, Apple TV, Smart TVs, and more.
+              Unlock the full power of <strong>IPTV Smarters Pro</strong> — the #1 choice for 
+              <strong className="text-blue-400"> IPTV streaming worldwide</strong>.  
+              With the <strong>IPTV Smarters Pro App</strong> and 
+              <strong> IPTV Smarters Pro Player</strong>, enjoy seamless access to 
+              <strong> 27,000+ live channels</strong> and over 
+              <strong> 165K Movies & TV Shows (VOD)</strong> in <strong>4K / 8K Ultra HD</strong>.
             </p>
 
             <p className="text-gray-400 mb-6">
-              Choose from <strong>affordable IPTV Canada plans</strong>, stream with 
-              <strong> no buffering IPTV technology</strong>, and enjoy entertainment from one of the 
-              <strong> best IPTV providers in Canada</strong>. Say goodbye to expensive cable bills with 
-              <strong> cheap IPTV deals in Canada</strong> that never compromise on quality.
+              Our <strong>IPTV Smarters Subscription</strong> includes 
+              <strong> Multi-Screen support</strong>, 
+              <strong> Electronic Program Guide (EPG)</strong>, 
+              <strong> parental controls</strong>, 
+              <strong> catch-up TV</strong>, 
+              <strong> free VPN</strong>, and 
+              <strong> AntiFreeze Technology™ 9.0</strong> for 
+              <span className="text-blue-400"> stable, buffer-free IPTV streaming</span>.
             </p>
             
             {/* Key Features */}
@@ -39,27 +39,27 @@ const Hero = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
                 <li className="flex items-center">
                   <span className="text-blue-400 mr-2">✓</span>
-                  IPTV Smarters Pro supported
+                  IPTV Smarters Pro App & Player Supported
                 </li>
                 <li className="flex items-center">
                   <span className="text-blue-400 mr-2">✓</span>
-                  Works with any IPTV box in Canada
+                  27,000+ Live TV Channels
                 </li>
                 <li className="flex items-center">
                   <span className="text-blue-400 mr-2">✓</span>
-                  Free IPTV trial available
+                  165K+ Movies & Series (VOD)
                 </li>
                 <li className="flex items-center">
                   <span className="text-blue-400 mr-2">✓</span>
-                  Best IPTV provider in Canada
+                  Multi-Screen & EPG Integration
                 </li>
                 <li className="flex items-center">
                   <span className="text-blue-400 mr-2">✓</span>
-                  Affordable monthly & yearly IPTV subscriptions
+                  Sports IPTV – NBA, NFL, NHL, MLB, ESPN+, PPV
                 </li>
                 <li className="flex items-center">
                   <span className="text-blue-400 mr-2">✓</span>
-                  Trusted IPTV service with Anti-Freeze tech
+                  Free IPTV Trial
                 </li>
               </ul>
             </div>
@@ -74,7 +74,7 @@ const Hero = () => {
               <a 
                 href="#subscriptions" 
                 className="border-2 border-blue-500 text-blue-300 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-900/50 transition text-center"
-                aria-label="View IPTV subscription plans for Canada"
+                aria-label="View IPTV Smarters Pro subscription plans"
               >
                 View IPTV Plans
               </a>
@@ -83,9 +83,9 @@ const Hero = () => {
             {/* Stats */}
             <div className="flex items-center space-x-8">
               {[
-                { label: 'Live TV Channels', value: '12,000+', description: 'Canadian & International IPTV' },
-                { label: 'Movies & Shows', value: '25,000+', description: 'On-Demand VOD Content' },
-                { label: 'Service Uptime', value: '99.9%', description: 'Reliable No Buffer IPTV' },
+                { label: 'Live Channels', value: '27,000+', description: 'Worldwide IPTV Access' },
+                { label: 'Movies & Series', value: '165K+', description: 'On-Demand VOD Library' },
+                { label: 'Streaming Quality', value: '4K / 8K', description: 'Ultra HD IPTV Experience' },
               ].map(({ label, value, description }) => (
                 <div key={label} className="text-center">
                   <div className="text-2xl font-bold text-white">{value}</div>
@@ -94,23 +94,13 @@ const Hero = () => {
                 </div>
               ))}
             </div>
-
-            {/* Geographic Targeting */}
-            <div className="mt-8 text-sm text-gray-400">
-              <p>
-                Serving all Canadian provinces: 
-                <span className="text-blue-400 ml-1">Ontario, Quebec, British Columbia, Alberta</span> and more.  
-                Stream anywhere in Canada with one of the <strong className="text-white">most reliable IPTV services</strong>.  
-                Whether you need <strong className="text-blue-400">sports IPTV, movie IPTV, or news IPTV</strong>, we’ve got you covered.
-              </p>
-            </div>
           </div>
 
           {/* Image */}
           <div className="relative group">
             <Image
               src="/IPTV.webp"
-              alt="Best IPTV Canada 2025 - IPTV Service Compatible with IPTV Smarters Pro, TiviMate, Firestick, Android TV, Roku, and Smart IPTV"
+              alt="IPTV Smarters Pro Subscription – Premium IPTV App & Player"
               width={400}
               height={300}
               className="rounded-2xl shadow-2xl border border-gray-700 w-full max-w-md mx-auto"
@@ -118,17 +108,14 @@ const Hero = () => {
             />
             <div className="absolute -bottom-6 left-4 bg-gray-900 border border-gray-700 p-4 rounded-xl shadow-xl animate-fade-in-up">
               <div className="text-sm text-gray-400">Streaming Quality</div>
-              <div className="text-2xl font-bold text-green-400 animate-pulse">4K Ultra HD IPTV</div>
-              <div className="text-xs text-gray-500">Compatible with all IPTV boxes in Canada</div>
+              <div className="text-2xl font-bold text-green-400 animate-pulse">4K / 8K Ultra HD IPTV</div>
+              <div className="text-xs text-gray-500">Powered by IPTV Smarters Pro</div>
             </div>
           </div>
         </div>
       </div>
-
-   
     </section>
   );
 };
 
 export default Hero;
-//
